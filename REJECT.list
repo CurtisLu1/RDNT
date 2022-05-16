@@ -1,0 +1,158 @@
+DOMAIN,adcdn.tencentmusic.com
+DOMAIN,ad.tencentmusic.com
+DOMAIN,adplay.tencentmusic.com
+DOMAIN,adexpo.tencentmusic.com
+DOMAIN,ssp.tencentmusic.com
+DOMAIN,adstats.tencentmusic.com
+
+DOMAIN,business.msstatic.com
+
+IP-CIDR,203.107.1.1/24,no-resolve
+
+# > Safari 防跳转
+# DOMAIN,app-site-association.cdn-apple.com
+
+# 灵锡去广告
+DOMAIN-SUFFIX,utoken.umeng.com
+DOMAIN-SUFFIX,errlog.umeng.com
+
+# > 爱奇艺 去暂停广告
+DOMAIN-SUFFIX,cupid.iqiyi.com
+IP-CIDR,203.107.63.154/32,no-resolve
+# > 人人视频 去广告
+AND,((USER-AGENT,PUClient*), (NOT,((DOMAIN-SUFFIX,rr.tv))))
+URL-REGEX,^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/homePage)
+# > 优酷 去广告
+DOMAIN,iyes.youku.com
+URL-REGEX,^http:\/\/.*\.cp31\.ott\.cibntv\.net\/youku\/
+# > 京东 去广告
+URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$
+# > 腾讯视频 修护+去广告
+URL-REGEX,^https?:\/\/pgdt\.gtimg\.cn
+URL-REGEX,^https?:\/\/c\.l\.qq\/.com
+# > 掌阅 去广告
+URL-REGEX,^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/
+URL-REGEX,^https?:\/\/ih2\.ireader\.com\/zyapi\/self\/screen\/ad
+URL-REGEX,^https?:\/\/ih2\.ireader\.com\/zycl\/api\/ad\/
+URL-REGEX,^https?:\/\/ih2\.ireader\.com\/zycl\/api\/ad\/
+# > 作业帮 去广告
+URL-REGEX,^https?:\/\/www\.zybang\.com\/adx\/
+# > 滴滴出行 去广告
+//01安全提示横幅
+URL-REGEX,^https:\/\/guard\.sec\.xiaojukeji\.com\/api\/guard\/psg\/v2\/getShieldStatus
+//02底部打车&代价推荐
+URL-REGEX,^https:\/\/conf\.diditaxi\.com\.cn\/one
+//03福利专区-金融服务-公交-骑车-滴滴乐园
+URL-REGEX,^https:\/\/conf\.diditaxi\.com\.cn\/nav\/widget
+//04接送机-优惠商城
+URL-REGEX,^https:\/\/api\.udache\.com\/gulfstream
+//05 主页领任务
+URL-REGEX,^https:\/\/conf\.diditaxi\.com\.cn\/api\/(component|fusion|dynamicmodule|usercenter)
+URL-REGEX,^https:\/\/conf\.diditaxi\.com\.cn\/dynamic
+//主页 非主流式悬浮挂件
+URL-REGEX,^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget
+//07商城
+URL-REGEX,^https:\/\/shop-gw\.chengxinyouxuan\.com\/(route|indexConfig|apolloConfig|getShopTuanInfos)
+//08开屏广告
+URL-REGEX,^https:\/\/img-ys011\.didistatic\.com\/static
+//09骑行
+URL-REGEX,^https:\/\/pt-starimg\.didistatic\.com\/static
+# > 云闪付 去广告
+URL-REGEX,^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long
+# > 拼多多 去广告
+URL-REGEX,^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash
+# > 威锋 去广告
+URL-REGEX,^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList)
+# > 贝壳网 去广告
+URL-REGEX,^https:\/\/bkw-legacy\.oss-cn-shenzhen\.aliyuncs\.com\/cms\/ad
+
+# > 083 交管12123去广告@kyle
+URL-REGEX,^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$
+
+# > 072 拼多多 - api.yangkeduo.com,api.pinduoduo.com
+URL-REGEX,^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash
+
+# > 070 飞猪 - gw.alicdn.com
+URL-REGEX,^https?:\/\/gw\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3}-\d{4}\.(jpg|png)$
+
+# > 66 江苏移动10086（需卸载重装）@ddgksf2013
+URL-REGEX,^https?+:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query
+
+# > 65 拦截100@ddgksf2013
+URL-REGEX,https://tagit.hyhuo.com/recover/list
+
+# > 60 网易严选（清除缓存使用）@ddgksf2013
+URL-REGEX,https://support.you.163.com/appversync/check.do
+URL-REGEX,^https?+:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json
+URL-REGEX,https://yanxuan.nosdn.127.net/4a90fbfb67c3a3295f813ff078415362.gif
+URL-REGEX,https:\/\/yanxuan.nosdn.127.net\/(static-union\/)?.*\.gif
+URL-REGEX,https:\/\/yanxuan.nosdn.127.net\/.*\.mp4
+
+# > 53 屏蔽知乎网页版强制登陆弹窗@HotKids
+URL-REGEX,^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js
+
+# > 52 交行买单吧@HotKids
+URL-REGEX,^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$
+URL-REGEX,^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$
+
+# > 49 西窗烛开屏广告@ddgksf2013
+URL-REGEX,^https?:\/\/lchttpapi\.xczim\.com\/1\.1\/functions\/getLaunchImageForIOS
+
+# > 50 滴滴出行
+URL-REGEX,https?://res\.xiaojukeji\.com\/resapi\/activity\/mget
+URL-REGEX,https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices)
+
+# > 46 Keep开屏广告屏蔽@ddgksf2013
+URL-REGEX,https://api.gotokeep.com/op-engine-webapp/v1/ad
+URL-REGEX,https://api.gotokeep.com/ads/v1/ads/preload
+
+# > 44 车来了
+URL-REGEX,^https?:\/\/api.chelaile.net.cn\/adpub\/
+URL-REGEX,^https?:\/\/api.chelaile.net.cn\/goocity\/advert\/
+URL-REGEX,^https?:\/\/atrace.chelaile.net.cn\/adpub\/
+URL-REGEX,^https?:\/\/atrace.chelaile.net.cn\/exhibit\?&adv_image
+URL-REGEX,^https?:\/\/pic1.chelaile.net.cn\/adv\/
+
+URL-REGEX,https?:\/\/cdn\.\w{3}\.chelaileapp\.cn\/(api\/)?adpub
+URL-REGEX,https?:\/\/web\.chelaile\.net\.cn\/api\/adpub
+
+DOMAIN-SUFFIX,atrace.chelaile.net.cn
+DOMAIN,logs.chelaile.net.cn
+DOMAIN,ad.chelaile.net.cn
+
+# > 43 小米
+URL-REGEX,^https?:\/\/api.jr.mi.com\/v1\/adv\/
+URL-REGEX,^https?:\/\/api.m.mi.com\/.+\/app\/start
+
+# > 41 小红书
+URL-REGEX,^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record*
+URL-REGEX,^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage*
+URL-REGEX,^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource*
+URL-REGEX,^https:\/\/pages\.xiaohongshu\.com\/data\/native\/matrix_switches*
+
+# > 40 闲鱼
+URL-REGEX,^https:\/\/gw.alicdn.com\/mt\/
+URL-REGEX,^https:\/\/gw.alicdn.com\/tfs\/.+\d{3,4}-\d{4}
+URL-REGEX,^https:\/\/gw.alicdn.com\/tps\/.+\d{3,4}-\d{4}
+
+# > 39 饿了么
+URL-REGEX,^https?:\/\/elemecdn.com\/.+\/sitemap
+URL-REGEX,^https?:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4}
+URL-REGEX,^https?:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4}
+URL-REGEX,^https?:\/\/fuss10.elemecdn.com\/.+.mp4
+URL-REGEX,^https?:\/\/www1.elecfans.com\/www\/delivery\/
+
+# > 29 美味不用等
+URL-REGEX,^https?:\/\/capi.mwee.cn\/app-api\/V12\/app\/getstartad
+
+# > 27 美团
+URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$
+URL-REGEX,^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4)
+URL-REGEX,^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg
+URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp
+
+# > 14 铁路12306开屏广告(倒计时仍然存在）@ddgksf2013
+URL-REGEX,https://ad.12306.cn/*
+
+# > 11 百度地图开屏广告
+URL-REGEX,^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg
