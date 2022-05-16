@@ -69,8 +69,8 @@ DOMAIN-SUFFIX,biquge.com
 DOMAIN-SUFFIX,laiyifa.org
 #
 DOMAIN,cmshow.gtimg.cn
-IP-CIDR,98.142.140.135,no-resolve
-IP-CIDR,104.41.164.226,no-resolve
+IP-CIDR,98.142.140.135/24,no-resolve
+IP-CIDR,104.41.164.226/24,no-resolve
 #小绿人
 DOMAIN-SUFFIX,greenmangaming.com
 #
