@@ -9,6 +9,8 @@ DOMAIN,business.msstatic.com
 
 IP-CIDR,203.107.1.1/24,no-resolve
 
+IP-CIDR,111.47.213.195/32,no-resolve
+
 # > Safari 防跳转
 # DOMAIN,app-site-association.cdn-apple.com
 
