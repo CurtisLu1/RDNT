@@ -37,7 +37,7 @@ URL-REGEX,^https:\/\/conf\.diditaxi\.com\.cn\/one
 //03福利专区-金融服务-公交-骑车-滴滴乐园
 URL-REGEX,^https:\/\/conf\.diditaxi\.com\.cn\/nav\/widget
 //04接送机-优惠商城
-URL-REGEX,^https:\/\/api\.udache\.com\/gulfstream
+# URL-REGEX,^https:\/\/api\.udache\.com\/gulfstream
 //05 主页领任务
 URL-REGEX,^https:\/\/conf\.diditaxi\.com\.cn\/api\/(component|fusion|dynamicmodule|usercenter)
 URL-REGEX,^https:\/\/conf\.diditaxi\.com\.cn\/dynamic
