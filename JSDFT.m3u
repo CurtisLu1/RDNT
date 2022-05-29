@@ -1,4 +1,30 @@
 #EXTM3U
+#EXTINF:-1 group-title="江苏地方台",无锡新闻综合
+https://php.52sf.ga/jmstvhg.php?id=jswxxw
+#EXTINF:-1 group-title="江苏地方台",无锡娱乐
+https://php.52sf.ga/jmstvhg.php?id=jswxyl
+#EXTINF:-1 group-title="江苏地方台",无锡都市资讯
+https://php.52sf.ga/jmstvhg.php?id=jswxds
+#EXTINF:-1 group-title="江苏地方台",无锡生活
+https://php.52sf.ga/jmstvhg.php?id=jswxsh
+#EXTINF:-1 group-title="江苏地方台",无锡经济
+https://php.52sf.ga/jmstvhg.php?id=jswxjj
+#EXTINF:-1 group-title="江苏地方台",江阴新闻综合频道
+http://jytv-2-live.weecloud.cn/prod/VGc5sOSw7oLpEABc.m3u8
+#EXTINF:-1 group-title="江苏地方台",宜兴新闻综合频道
+http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
+#EXTINF:-1 group-title="江苏地方台",如东新闻综合
+https://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8
+#EXTINF:-1 group-title="江苏地方台",南通新闻综合
+http://cm.wshls.homecdn.com/live/7cc9.m3u8
+#EXTINF:-1 group-title="江苏地方台",南通2套社教频道
+http://cm.wshls.homecdn.com/live/7cc7.m3u8
+#EXTINF:-1 group-title="江苏地方台",南通3套公共频道
+http://cm.wshls.homecdn.com/live/7cc5.m3u8
+#EXTINF:-1 group-title="江苏地方台",南通崇川TV
+http://cm.wshls.homecdn.com/live/7cc1.m3u8
+#EXTINF:-1 group-title="江苏地方台",苏州4K频道
+http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1 group-title="江苏地方台",苏州新闻综合
 https://php.52sf.ga/jmstvhg.php?id=jsszxwzh
 #EXTINF:-1 group-title="江苏地方台",苏州社会经济
@@ -7,6 +33,22 @@ https://php.52sf.ga/jmstvhg.php?id=jsszshjj
 https://php.52sf.ga/jmstvhg.php?id=jsszwhsh
 #EXTINF:-1 group-title="江苏地方台",苏州生活资讯
 https://php.52sf.ga/jmstvhg.php?id=jsszshzx
+#EXTINF:-1 group-title="江苏地方台",张家港新闻综合
+http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8
+#EXTINF:-1 group-title="江苏地方台",南京新闻综合
+http://live.nbs.cn/channels/njtv/xwzh/500k.m3u8
+#EXTINF:-1 group-title="江苏地方台",南京科教频道
+http://live.nbs.cn/channels/njtv/jkpd/500k.m3u8
+#EXTINF:-1 group-title="江苏地方台",南京生活频道
+http://live.nbs.cn/channels/njtv/shpd/500k.m3u8
+#EXTINF:-1 group-title="江苏地方台",南京娱乐频道
+http://live.nbs.cn/channels/njtv/ylpd/500k.m3u8
+#EXTINF:-1 group-title="江苏地方台",南京十八频道
+http://live.nbs.cn/channels/njtv/sbpd/500k.m3u8
+#EXTINF:-1 group-title="江苏地方台",南京少儿频道
+http://live.nbs.cn/channels/njtv/sepd/500k.m3u8
+#EXTINF:-1 group-title="江苏地方台",南京信息频道
+http://live.nbs.cn/channels/njtv/xxpd/500k.m3u8
 #EXTINF:-1 group-title="江苏地方台",盐城新闻综合
 https://php.52sf.ga/jmstvhg.php?id=jsyc1
 #EXTINF:-1 group-title="江苏地方台",盐城法制生活
@@ -19,16 +61,7 @@ https://php.52sf.ga/jmstvhg.php?id=jshazh
 https://php.52sf.ga/jmstvhg.php?id=jshagg
 #EXTINF:-1 group-title="江苏地方台",淮安影视娱乐
 https://php.52sf.ga/jmstvhg.php?id=jshays
-#EXTINF:-1 group-title="江苏地方台",无锡新闻综合
-https://php.52sf.ga/jmstvhg.php?id=jswxxw
-#EXTINF:-1 group-title="江苏地方台",无锡娱乐
-https://php.52sf.ga/jmstvhg.php?id=jswxyl
-#EXTINF:-1 group-title="江苏地方台",无锡都市资讯
-https://php.52sf.ga/jmstvhg.php?id=jswxds
-#EXTINF:-1 group-title="江苏地方台",无锡生活
-https://php.52sf.ga/jmstvhg.php?id=jswxsh
-#EXTINF:-1 group-title="江苏地方台",无锡经济
-https://php.52sf.ga/jmstvhg.php?id=jswxjj
+
 #EXTINF:-1 group-title="江苏地方台",泰州-1
 https://php.52sf.ga/jmstvhg.php?id=jstz1
 #EXTINF:-1 group-title="江苏地方台",泰州-2
