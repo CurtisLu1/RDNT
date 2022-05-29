@@ -21,6 +21,8 @@ DOMAIN-SUFFIX,zsxq.com
 DOMAIN-SUFFIX,dns.dream.ren
 DOMAIN-SUFFIX,mobile.12306.cn
 DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,speedtest.jsinfo.net
+DOMAIN-SUFFIX,speedtest.net
 
 DOMAIN-KEYWORD,h-world
 DOMAIN-KEYWORD,hantinghotels
@@ -32,6 +34,8 @@ DOMAIN-KEYWORD,htsec
 DOMAIN-KEYWORD,seeyon
 DOMAIN-KEYWORD,*bank*
 DOMAIN-KEYWORD,citimobile
+DOMAIN-KEYWORD,speedtest
+
 
 USER-AGENT,%E4%B8%9C%E6%96%B9*
 USER-AGENT,%E5%9D%9A%E6%9E%9C*
@@ -49,10 +53,10 @@ USER-AGENT,PNCBank*
 USER-AGENT,wxbus*
 USER-AGENT,xiaomiquan*
 
-IP-CIDR,61.177.196.114/24,no-resolve
-IP-CIDR,58.221.171.162/24,no-resolve
+IP-CIDR,61.177.196.114/32,no-resolve
+IP-CIDR,58.221.171.162/32,no-resolve
 
-IP-CIDR,60.247.27.129/24,no-resolve
+IP-CIDR,60.247.27.129/32,no-resolve
 
 IP-CIDR,101.6.6.6/32,no-resolve
 IP-CIDR,119.28.28.28/32,no-resolve
@@ -60,7 +64,7 @@ IP-CIDR,119.29.29.29/32,no-resolve
 IP-CIDR,223.5.5.5/32,no-resolve
 IP-CIDR,223.6.6.6/32,no-resolve
 IP-CIDR,180.76.76.76/32,no-resolve
-IP-CIDR,182.254.116.0/24,no-resolve
+IP-CIDR,182.254.116.0/32,no-resolve
 
 # GitHub 访问加速
 DOMAIN,github.pengym.workers.dev
