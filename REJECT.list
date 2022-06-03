@@ -172,16 +172,15 @@ URL-REGEX,^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/20220\d{3}\/.*.(png|
 URL-REGEX,^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/advertising\/20220\d{3}\/.*.(png|jpg)
 URL-REGEX,^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg)
 
-# 喜马拉雅
-⑴XiMaLaYa_喜马拉雅_屏蔽开屏广告@ddgksf2013
+# ～ XiMaLaYa_喜马拉雅_屏蔽开屏广告@ddgksf2013
 URL-REGEX,^https?:\/\/(adse\.wsa|adse|adbehavior|xdcs-collector)\.xima.*\.com\/.*
-⑵XiMaLaYa_喜马拉雅_屏蔽位置请求@ddgksf2013
+# ～ XiMaLaYa_喜马拉雅_屏蔽位置请求@ddgksf2013
 URL-REGEX,^https?:\/\/.*\.xima.*\.com\/mobile\/discovery\/v\d\/location
-⑶XiMaLaYa_喜马拉雅_屏蔽热搜词@ddgksf2013
+# ～ XiMaLaYa_喜马拉雅_屏蔽热搜词@ddgksf2013
 URL-REGEX,^https?:\/\/.*\.xima.*\.com\/hotWord
-⑷XiMaLaYa_喜马拉雅_屏蔽搜索框定时Ad@ddgksf2013
+# ～ XiMaLaYa_喜马拉雅_屏蔽搜索框定时_Ad@ddgksf2013
 URL-REGEX,^https?:\/\/.*\.xima.*\.com\/guideWord
-⑸XiMaLaYa_喜马拉雅_屏蔽实时广告请求@ddgksf2013
+# ～ XiMaLaYa_喜马拉雅_屏蔽实时Ad请求@ddgksf2013
 URL-REGEX,^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime
-⑹XiMaLaYa_喜马拉雅_屏蔽ting_Ad@ddgksf2013
+# ～ XiMaLaYa_喜马拉雅_屏蔽ting_Ad@ddgksf2013
 URL-REGEX,^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed)?\?appid=
