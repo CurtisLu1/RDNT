@@ -2,8 +2,8 @@
   "id": "CMJ781.app.sub",
   "name": "CMJ781 应用订阅汇总",
   "author": "@CMJ781",
-  "icon": "https://avatars.githubusercontent.com/u/27717518?v=4",
-  "repo": "https://github.com/blackmatrix7/ios_rule_script",
+  "icon": "https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/moi.jpg",
+  "repo": "https://github.com/CMJ781/RDNT/tree/master/boxjs",
   "apps": [
     {
       "id": "blackmatrix7.zhihu",
