@@ -1,7 +1,7 @@
 {
   "id": "CMJ781.app.sub",
-  "name": "CMJ781 应用订阅",
-  "author": "@blackmatrix7",
+  "name": "CMJ781 应用订阅汇总",
+  "author": "@CMJ781",
   "icon": "https://avatars.githubusercontent.com/u/27717518?v=4",
   "repo": "https://github.com/blackmatrix7/ios_rule_script",
   "apps": [
@@ -145,104 +145,6 @@
           "desc": "出现异常时请选择DEBUG提交日志"
         }
       ]
-    },
-    {
-      "id": "blackmatrix7.applestore",
-      "name": "AppleStore",
-      "keys": ["goods_model", "applestore_region", "applestore_bark_url", "applestore_stock", "onlinestore_stock"],
-      "author": "@blackmatrix7",
-      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/applestore",
-      "settings": [
-        {
-          "id": "applestore_type",
-          "name": "商店类型",
-          "val": "APPLESTORE",
-          "type": "radios",
-          "items": [
-            {
-              "key": "AppleStore零售店",
-              "label": "INFO"
-            },
-            {
-              "key": "Apple官网",
-              "label": "WARNING"
-            },
-            {
-              "key": "ERROR",
-              "label": "ERROR"
-            },
-            {
-              "key": "CRITICAL",
-              "label": "CRITICAL"
-            },
-            {
-              "key": "DEBUG",
-              "label": "DEBUG"
-            }
-          ],
-          "desc": "出现异常时请选择DEBUG提交日志"
-        },
-        {
-          "id": "goods_model",
-          "name": "商品型号",
-          "val": "",
-          "type": "input",
-          "placeholder": "Z0YQ#MKMR3CH/A,MJXA3FE/A#AppleWatch 7 石墨色不锈钢;MLDE3CH/A",
-          "autoGrow": true,
-          "desc": "需要监控的商品型号，option用#分隔，自定义名称在option后以#分隔。多款以;分隔，移动端建议只监控一个。"
-        },
-        {
-          "id": "applestore_region",
-          "name": "监控地区",
-          "val": "",
-          "type": "input",
-          "placeholder": "吉林 长春 朝阳区",
-          "autoGrow": true,
-          "desc": "直辖市示例：北京 北京 昌平区"
-        },
-        {
-          "id": "applestore_bark_url",
-          "name": "Bark推送",
-          "val": "",
-          "type": "input",
-          "placeholder": "https://api.day.app/VXTWvaQ18N29bsQAg7DgkT",
-          "autoGrow": true,
-          "desc": "使用Bark推送到其他设备，比如iPad执行监控，推送结果到iPhone"
-        },
-        {
-          "id": "applestore_settings_notify_soldout",
-          "name": "查询无货也进行通知",
-          "val": false,
-          "type": "boolean",
-          "desc": "可能会发起大量推送，建议仅在测试时开启"
-        },
-        {
-          "id": "magicjs_loglevel",
-          "name": "日志等级",
-          "val": "INFO",
-          "type": "radios",
-          "items": [
-            {
-              "key": "INFO",
-              "label": "INFO"
-            },
-            {
-              "key": "WARNING",
-              "label": "WARNING"
-            },
-            {
-              "key": "ERROR",
-              "label": "ERROR"
-            },
-            {
-              "key": "DEBUG",
-              "label": "DEBUG"
-            }
-          ],
-          "desc": "出现异常时请选择DEBUG提交日志"
-        }
-      ],
-      "icons": ["https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/icon/applestore_dark.png", "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/applestore/icon/applestore.png"]
     }
   ]
 }
