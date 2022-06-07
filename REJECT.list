@@ -54,6 +54,9 @@ URL-REGEX,^https:\/\/img-ys011\.didistatic\.com\/static
 //09骑行
 URL-REGEX,^https:\/\/pt-starimg\.didistatic\.com\/static
 
+# PornHub[网页优化]@ddgksf2013 - 网站地址：https://cn.pornhub.com
+URL-REGEX,http-response ^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads
+
 # > 云闪付 去广告
 URL-REGEX,^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long
 # > 威锋 去广告
