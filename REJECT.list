@@ -46,6 +46,10 @@ DOMAIN-SUFFIX,logs.umengcloudlog.com
 DOMAIN-SUFFIX,alogs.umengcloudlog.com
 DOMAIN-SUFFIX,alog.umengcloudlog.com
 
+# > HDOBOX去广告
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,applvn.com
+
 # 避免哔哩哔哩免流失效
 AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))),(NOT,((DOMAIN-SUFFIX,hdslb.com))), (NOT,((DOMAIN,wap.cmpassport.com))), (NOT,((DOMAIN-SUFFIX,wo.cn))), (NOT,((DOMAIN-SUFFIX,biligame.com))),(NOT,((DOMAIN-SUFFIX,bilivideo.com))), (NOT,((DOMAIN-SUFFIX,biliapi.com))))
 
