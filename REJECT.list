@@ -218,30 +218,29 @@ URL-REGEX,^https?:\/\/webcdn\.m\.qq\.com\/qiantu\/upload\/202[0-9]{5}\/.*.(jpg|p
 # > 雪球
 URL-REGEX,^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$
 
-# XiMaLaYa_喜马拉雅_屏蔽Aged请求@ddgksf2013
 # XiMaLaYa_喜马拉雅_屏蔽gif弹窗Ad@ddgksf2013
-^URL-REGEX,https?:\/\/.*\.xmcdn\.com\/\w{8}\/\w{4}-\w{16}\/.+gif$
+URL-REGEX,^https?:\/\/.*\.xmcdn\.com\/\w{8}\/\w{4}-\w{16}\/.+gif$
 # XiMaLaYa_喜马拉雅_屏蔽Aged请求@ddgksf2013
 URL-REGEX,https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query)
 # XiMaLaYa_喜马拉雅_部分Tab弹窗@ddgksf2013
 URL-REGEX,https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant
 # XiMaLaYa_喜马拉雅_屏蔽红点提示@ddgksf2013
-^URL-REGEX,https?:\/\/.*\.xima.*\.com\/mobile-user\/unread
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread
 # XiMaLaYa_喜马拉雅_屏蔽minor请求@ddgksf2013
-^URL-REGEX,https?:\/\/.*\.xima.*\.com/mobile-user/minorProtection/pop
+URL-REGEX,^https?:\/\/.*\.xima.*\.com/mobile-user/minorProtection/pop
 # XiMaLaYa_喜马拉雅_屏蔽隐私搜集@ddgksf2013
-^URL-REGEX,https?:\/\/.*\.xima.*\.com\/collector\/xl\/v\d
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/collector\/xl\/v\d
 # XiMaLaYa_喜马拉雅_屏蔽版本更新@ddgksf2013
-^URL-REGEX,https?:\/\/.*\.xima.*\.com\/butler-portal\/versionCheck
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/butler-portal\/versionCheck
 # XiMaLaYa_喜马拉雅_屏蔽开屏广告@ddgksf2013
-^URL-REGEX,https?:\/\/(adse\.wsa|adse|adbehavior|xdcs-collector)\.xima.*\.com\/.*
+URL-REGEX,^https?:\/\/(adse\.wsa|adse|adbehavior|xdcs-collector)\.xima.*\.com\/.*
 # XiMaLaYa_喜马拉雅_屏蔽位置请求@ddgksf2013
-^URL-REGEX,https?:\/\/.*\.xima.*\.com\/mobile\/discovery\/v\d\/location
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/mobile\/discovery\/v\d\/location
 # XiMaLaYa_喜马拉雅_屏蔽热搜词@ddgksf2013
-^URL-REGEX,https?:\/\/.*\.xima.*\.com\/hotWord
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/hotWord
 # XiMaLaYa_喜马拉雅_屏蔽搜索框定时_Ad@ddgksf2013
-^URL-REGEX,https?:\/\/.*\.xima.*\.com\/guideWord
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/guideWord
 # XiMaLaYa_喜马拉雅_屏蔽实时Ad请求@ddgksf2013
-^URL-REGEX,https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime
 # XiMaLaYa_喜马拉雅_屏蔽ting_Ad@ddgksf2013
-^URL-REGEX,https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)?
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)?
