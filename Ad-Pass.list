@@ -3,6 +3,7 @@ DOMAIN,tracking.miui.com
 DOMAIN,vv.video.qq.com
 URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/brand\/set
 URL-REGEX,^https?:\/\/www\.didapinche\.com\/app\/adstat.*&ad_type=(ride_paid|benefits)
+URL-REGEX,^https:\/\/utoken\.umeng\.com\/api\/updateZdata\/v2$
 DOMAIN,fonts.googleapis.com
 DOMAIN,fonts.gstatic.com
 
