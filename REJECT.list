@@ -198,8 +198,6 @@ URL-REGEX,^https?:\/\/creditcard\.bankcomm\.com\/tfimg\/public00\/M00/25/F3\/
 # > 招商银行
 URL-REGEX,^https?+:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
 URL-REGEX,^https?:\/\/resource.cmbchina.com\/fsp\/File\/ClientFacePublic\/.+.gif
-# > 掌上生活
-URL-REGEX,^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/AdPlatformPublic\/[a-z0-9]{32}\.jpeg
 # > gif url reject 只拦截gif格式的图片
 URL-REGEX,^https:\/\/s3gw.cmbimg.com\/mbappinitads\/.*.(jpg|png)
 # > 浦大喜奔（倒计时还在）
