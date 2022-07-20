@@ -222,12 +222,18 @@ URL-REGEX,^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$
 # 喜马拉雅
 URL-REGEX,^https?:\/\/imagev2\.tx\.xmcdn\.com\/storages\/[a-zA-Z0-9]{4}-audiofreehighqps\/*\/*\/[a-zA-Z0-9]{24}\.(png|jpg)
 URL-REGEX,^https?:\/\/imagev2\.tx\.xmcdn\.com\/group[0-9]{2}\/M[0-9]{2}\/*\/*\/.*.(png|jpg)
-# 喜马拉雅_屏蔽gif弹窗
+# 喜马拉雅_播放页_Live
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/mobile-playpage\/view\/
+# 喜马拉雅_MyInfo红点提醒
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/chaos-notice-web\/v1\/message\/preview\/list
+# 喜马拉雅_屏蔽大红包Tips
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/social-web\/bottomTabs\/dynamicEntrance\/status
+# 喜马拉雅_屏蔽gif弹窗Ad
 URL-REGEX,^https?:\/\/.*\.xmcdn\.com\/\w{8}\/\w{4}-\w{16}\/.+gif$
 # 喜马拉雅_屏蔽Aged请求
-URL-REGEX,https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query)
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query)
 # 喜马拉雅_部分Tab弹窗
-URL-REGEX,https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant
+URL-REGEX,^https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant
 # 喜马拉雅_屏蔽红点提示
 URL-REGEX,^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread
 # 喜马拉雅_屏蔽minor请求
