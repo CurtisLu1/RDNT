@@ -11,6 +11,7 @@ DOMAIN,adstats.tencentmusic.com
 DOMAIN,business.msstatic.com
 DOMAIN,gg.caixin.com
 DOMAIN,p37-acsegateway.icloud.com.cn
+DOMAIN,access.mypikpak.com
 
 IP-CIDR,203.107.1.1/32,no-resolve
 
