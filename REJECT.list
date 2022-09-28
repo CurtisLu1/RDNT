@@ -134,6 +134,8 @@ URL-REGEX,https:\/\/yanxuan.nosdn.127.net\/.*\.mp4
 URL-REGEX,^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js
 # > 49 西窗烛开屏广告@ddgksf2013
 URL-REGEX,^https?:\/\/lchttpapi\.xczim\.com\/1\.1\/functions\/getLaunchImageForIOS
+# > 航旅纵横@ddgksf2013
+URL-REGEX,^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native
 
 # > 44 车来了
 URL-REGEX,https?:\/\/cdn\.\w{3}\.chelaileapp\.cn\/(api\/)?adpub
