@@ -1,8 +1,16 @@
 #EXTM3U
-#EXTINF:-1 group-title="江苏地方台",无锡新闻综合
+#EXTINF:-1 tvg-id="江苏地方台",无锡新闻综合
 https://php.52sf.ga/jmstvhg.php?id=jswxxw
-#EXTINF:-1 group-title="江苏地方台",无锡娱乐
+#EXTINF:-1 tvg-id="江苏地方台",无锡娱乐
 https://php.52sf.ga/jmstvhg.php?id=jswxyl
+#EXTINF:-1 tvg-id="江苏地方台",无锡都市资讯
+https://php.52sf.ga/jmstvhg.php?id=jswxds
+#EXTINF:-1 tvg-id="江苏地方台",无锡生活
+https://php.52sf.ga/jmstvhg.php?id=jswxsh
+#EXTINF:-1 tvg-id="江苏地方台",无锡经济
+https://php.52sf.ga/jmstvhg.php?id=jswxjj
+#EXTINF:-1 tvg-id="江苏地方台",江阴新闻综合频道
+http://jytv-2-live.weecloud.cn/prod/VGc5sOSw7oLpEABc.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",宜兴新闻综合频道
 http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",如东新闻综合
@@ -19,6 +27,14 @@ http://cm.wshls.homecdn.com/live/7cc5.m3u8
 http://cm.wshls.homecdn.com/live/7cc1.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",苏州4K频道
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
+#EXTINF:-1 tvg-id="江苏地方台",苏州新闻综合
+https://php.52sf.ga/jmstvhg.php?id=jsszxwzh
+#EXTINF:-1 tvg-id="江苏地方台",苏州社会经济
+https://php.52sf.ga/jmstvhg.php?id=jsszshjj
+#EXTINF:-1 tvg-id="江苏地方台",苏州文化生活
+https://php.52sf.ga/jmstvhg.php?id=jsszwhsh
+#EXTINF:-1 tvg-id="江苏地方台",苏州生活资讯
+https://php.52sf.ga/jmstvhg.php?id=jsszshzx
 #EXTINF:-1 tvg-id="江苏地方台",张家港新闻综合
 http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",张家港民生频道
@@ -37,6 +53,24 @@ http://live.nbs.cn/channels/njtv/sbpd/500k.m3u8
 http://live.nbs.cn/channels/njtv/sepd/500k.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",南京信息频道
 http://live.nbs.cn/channels/njtv/xxpd/500k.m3u8
+#EXTINF:-1 tvg-id="江苏地方台",盐城新闻综合
+https://php.52sf.ga/jmstvhg.php?id=jsyc1
+#EXTINF:-1 tvg-id="江苏地方台",盐城法制生活
+https://php.52sf.ga/jmstvhg.php?id=jsyc2
+#EXTINF:-1 tvg-id="江苏地方台",盐城城市公共
+https://php.52sf.ga/jmstvhg.php?id=jsyc3
+#EXTINF:-1 tvg-id="江苏地方台",淮安综合
+https://php.52sf.ga/jmstvhg.php?id=jshazh
+#EXTINF:-1 tvg-id="江苏地方台",淮安公共
+https://php.52sf.ga/jmstvhg.php?id=jshagg
+#EXTINF:-1 tvg-id="江苏地方台",淮安影视娱乐
+https://php.52sf.ga/jmstvhg.php?id=jshays
+#EXTINF:-1 tvg-id="江苏地方台",泰州-1
+https://php.52sf.ga/jmstvhg.php?id=jstz1
+#EXTINF:-1 tvg-id="江苏地方台",泰州-2
+https://php.52sf.ga/jmstvhg.php?id=jstz2
+#EXTINF:-1 tvg-id="江苏地方台",泰州-3
+https://php.52sf.ga/jmstvhg.php?id=jstz3
 #EXTINF:-1 tvg-id="南昌",南昌新闻综合
 http://39.135.138.58:18890/PLTV/88888888/224/3221226223/index.m3u8
 #EXTINF:-1 tvg-id="南昌",南昌都市频道
@@ -46,9 +80,67 @@ http://39.135.138.58:18890/PLTV/88888888/224/3221226228/index.m3u8
 #EXTINF:-1 tvg-id="南昌",南昌公共频道
 http://39.135.138.58:18890/PLTV/88888888/224/3221226231/index.m3u8
 
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aiyx.png" tvg-id="iHOT系列",iHOT爱院线
+http://111.11.123.49:6610/000000001000/6000000006000030630/1.m3u8?Contentid=6000000006000030630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aikh.png" tvg-id="iHOT系列",iHOT爱科幻
+http://111.11.123.49:6610/000000001000/6000000006000020630/1.m3u8?Contentid=6000000006000020630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/ailm.png" tvg-id="iHOT系列",iHOT爱浪漫
+http://111.11.123.49:6610/000000001000/6000000006000040630/1.m3u8?Contentid=6000000006000040630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aixj.png" tvg-id="iHOT系列",iHOT爱喜剧
+http://111.11.123.49:6610/000000001000/6000000006000010630/1.m3u8?Contentid=6000000006000010630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aixy.png" tvg-id="iHOT系列",iHOT爱悬疑
+http://111.11.123.49:6610/000000001000/6000000006000050630/1.m3u8?Contentid=6000000006000050630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aijd.png" tvg-id="iHOT系列",iHOT爱经典
+http://111.11.123.49:6610/000000001000/6000000006000060630/1.m3u8?Contentid=6000000006000060630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aijh.png" tvg-id="iHOT系列",iHOT爱江湖
+http://111.11.123.49:6610/000000001000/6000000006000110630/1.m3u8?Contentid=6000000006000110630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aisc.png" tvg-id="iHOT系列",iHOT爱赛车
+http://111.11.123.49:6610/000000001000/6000000006000240630/1.m3u8?Contentid=6000000006000240630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aity.png" tvg-id="iHOT系列",iHOT爱体育
+http://111.11.123.49:6610/000000001000/6000000006000290630/1.m3u8?Contentid=6000000006000290630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aits.png" tvg-id="iHOT系列",iHOT爱探索
+http://111.11.123.49:6610/000000001000/6000000006000300630/1.m3u8?Contentid=6000000006000300630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aiqt.png" tvg-id="iHOT系列",iHOT爱奇谈
+http://111.11.123.49:6610/000000001000/6000000006000270630/1.m3u8?Contentid=6000000006000270630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aiwj.png" tvg-id="iHOT系列",iHOT爱玩具
+http://111.11.123.49:6610/000000001000/6000000006000220630/1.m3u8?Contentid=6000000006000220630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aisj.png" tvg-id="iHOT系列",iHOT爱世界
+http://111.11.123.49:6610/000000001000/6000000006000210630/1.m3u8?Contentid=6000000006000210630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aihj.png" tvg-id="iHOT系列",iHOT爱怀旧
+http://111.11.123.49:6610/000000001000/6000000006000260630/1.m3u8?Contentid=6000000006000260630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/ailx.png" tvg-id="iHOT系列",iHOT爱旅行
+http://111.11.123.49:6610/000000001000/6000000006000250630/1.m3u8?Contentid=6000000006000250630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aijx.png" tvg-id="iHOT系列",iHOT爱极限
+http://111.11.123.49:6610/000000001000/6000000006000170630/1.m3u8?Contentid=6000000006000170630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aiyj.png" tvg-id="iHOT系列",iHOT爱幼教
+http://111.11.123.49:6610/000000001000/6000000006000180630/1.m3u8?Contentid=6000000006000180630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aijm.png" tvg-id="iHOT系列",iHOT爱解密
+http://111.11.123.49:6610/000000001000/6000000006000200630/1.m3u8?Contentid=6000000006000200630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aidz.png" tvg-id="iHOT系列",iHOT爱谍战
+http://111.11.123.49:6610/000000001000/6000000006000070630/1.m3u8?Contentid=6000000006000070630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/ails.png" tvg-id="iHOT系列",iHOT爱历史
+http://111.11.123.49:6610/000000001000/6000000006000150630/1.m3u8?Contentid=6000000006000150630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/ailq.png" tvg-id="iHOT系列",iHOT爱猎奇
+http://111.11.123.49:6610/000000001000/6000000006000190630/1.m3u8?Contentid=6000000006000190630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:- tvg-logo="http://n.ysyz.top:99/wuchixialiu/aids.png" tvg-id="iHOT系列",iHOT爱都市
+http://111.11.123.49:6610/000000001000/6000000006000080630/1.m3u8?Contentid=6000000006000080630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aikx.png" tvg-id="iHOT系列",iHOT爱科学
+http://111.11.123.49:6610/000000001000/6000000006000160630/1.m3u8?Contentid=6000000006000160630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aims.png" tvg-id="iHOT系列",iHOT爱美食
+http://111.11.123.49:6610/000000001000/6000000006000120630/1.m3u8?Contentid=6000000006000120630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aiss.png" tvg-id="iHOT系列",iHOT爱时尚
+http://111.11.123.49:6610/000000001000/6000000006000140630/1.m3u8?Contentid=6000000006000140630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aiqc.png" tvg-id="iHOT系列",iHOT爱青春
+http://111.11.123.49:6610/000000001000/6000000006000100630/1.m3u8?Contentid=6000000006000100630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aijt.png" tvg-id="iHOT系列",iHOT爱家庭
+http://111.11.123.49:6610/000000001000/6000000006000090630/1.m3u8?Contentid=6000000006000090630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/wuchixialiu/aidm.png" tvg-id="iHOT系列",iHOT爱动漫
+http://111.11.123.49:6610/000000001000/6000000006000280630/1.m3u8?Contentid=6000000006000280630&livemode=1&stbId=3&channel-id=wasusyt
+#EXTINF:-1 tvg-logo="http://pix1.tvzhe.com/images/logo/channel/YJIATV/YJIATV.jpg?1" tvg-id="iHOT系列",iHOT Y+频道
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230226/index.m3u8
+
 #EXTINF:-1 tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvdzdy.png",动作电影
 http://39.134.65.164/PLTV/88888888/224/3221225555/1.m3u8
-#http://39.134.65.166/PLTV/88888888/224/3221225555/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV惊悚悬疑" tvg-name="NEWTV惊悚悬疑" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjsxy.png",惊悚悬疑
 http://39.134.65.166/PLTV/88888888/224/3221225553/1.m3u8
 #EXTINF:-1 tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvgzjc.png",古装剧场
@@ -62,14 +154,12 @@ http://39.134.65.164/PLTV/88888888/224/3221225560/1.m3u8
 http://39.134.65.166/PLTV/88888888/224/3221225521/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV爱情喜剧" tvg-name="NEWTV爱情喜剧" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvaqxj.png",爱情喜剧
 http://39.134.65.166/PLTV/88888888/224/3221225533/1.m3u8
-#http://39.134.65.164/PLTV/88888888/224/3221225533/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV军事评论" tvg-name="NEWTV军事评论" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjspl.png",军事评论
 http://39.134.65.166/PLTV/88888888/224/3221225535/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV炫舞未来" tvg-name="NEWTV炫舞未来" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvxwwl.png",炫舞未来
 
 #EXTINF:-1 tvg-id="NEWTV潮妈辣婆" tvg-name="NEWTV潮妈辣婆" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcmlp.png",潮妈辣婆
 http://39.134.65.166/PLTV/88888888/224/3221225542/1.m3u8
-#http://39.134.65.164/PLTV/88888888/224/3221225542/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV金牌综艺" tvg-name="NEWTV金牌综艺" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjpzy.png",金牌综艺
 http://39.134.65.166/PLTV/88888888/224/3221225525/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV农业致富" tvg-name="NEWTV农业致富" tvg-id="轮播" tvg-logo="https://www.hualigs.cn/image/6152b442a20a7.jpg",农业致富
@@ -86,26 +176,17 @@ http://39.134.65.166/PLTV/88888888/224/3221225526/1.m3u8
 http://39.134.65.166/PLTV/88888888/224/3221225545/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV怡伴健康" tvg-name="NEWTV怡伴健康" tvg-id="轮播" tvg-logo="https://www.hualigs.cn/image/6152b4428f069.jpg",怡伴健康
 http://39.134.65.164/PLTV/88888888/224/3221225571/1.m3u8
-#EXTINF:-1 tvg-id="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",健康有约
 
 #EXTINF:-1 tvg-id="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",精品综合
 http://39.134.65.166/PLTV/88888888/224/3221225550/1.m3u8
-#EXTINF:-1 tvg-id="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",精品电影
-
-#EXTINF:-1 tvg-id="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",动画王国
-
 #EXTINF:-1 tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcjzy.png",超级综艺
 http://39.134.65.164/PLTV/88888888/224/3221225642/1.m3u8
-#http://39.134.65.162/PLTV/88888888/224/3221225642/1.m3u8
 #EXTINF:-1 tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcjty.png",超级体育
 http://39.134.65.164/PLTV/88888888/224/3221225635/1.m3u8
-#http://39.134.65.162/PLTV/88888888/224/3221225635/1.m3u8
 #EXTINF:-1 tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcjdy.png",超级电影
 http://39.134.65.164/PLTV/88888888/224/3221225644/1.m3u8
-#http://39.134.65.179/PLTV/88888888/224/3221225644/1.m3u8
 #EXTINF:-1 tvg-id="轮播" tvg-logo="",超级电视剧
 http://39.134.65.164/PLTV/88888888/224/3221225637/1.m3u8
-
 #EXTINF:-1 tvg-id="轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU军旅剧场
 http://117.148.179.134/PLTV/88888888/224/3221231585/index.m3u8
 #EXTINF:-1 tvg-id="轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU喜剧联盟
