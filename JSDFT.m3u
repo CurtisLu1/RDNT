@@ -18,10 +18,38 @@ https://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8
 #EXTINF:-1,tvg-id="如皋综合频道" tvg-name="如皋综合频道" group-title="江苏地方台", 如皋综合频道
 http://zhibo.erugao.cn/video/s10001-RGTV-hd/index.m3u8
 #EXTINF:-1,tvg-id="南通新闻综合" tvg-name="南通新闻综合" group-title="江苏地方台", 南通新闻综合
-http://cm.wshls.homecdn.com/live/7cc9.m3u8
+http://ott.mobaibox.com/PLTV/4/224/3221228445/index.m3u8
 #EXTINF:-1,tvg-id="南通2套社教频道" tvg-name="南通2套社教频道" group-title="江苏地方台", 南通2套社教频道
 http://ott.mobaibox.com/PLTV/4/224/3221228448/index.m3u8
 #EXTINF:-1,tvg-id="南通3套公共频道" tvg-name="南通3套公共频道" group-title="江苏地方台", 南通3套公共频道
 http://ott.mobaibox.com/PLTV/4/224/3221228451/index.m3u8
 #EXTINF:-1,tvg-id="南通崇川TV" tvg-name="南通崇川TV" group-title="江苏地方台", 南通崇川TV
 http://ott.mobaibox.com/PLTV/4/224/3221228533/index.m3u8
+#EXTINF:-1,tvg-id="苏州4K频道" tvg-name="苏州4K频道" group-title="江苏地方台", 苏州4K频道
+http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
+#EXTINF:-1,tvg-id="苏州新闻综合" tvg-name="苏州新闻综合" group-title="江苏地方台", 苏州新闻综合
+https://php.52sf.ga/jmstvhg.php?id=jsszxwzh
+#EXTINF:-1,tvg-id="苏州社会经济" tvg-name="苏州社会经济" group-title="江苏地方台", 苏州社会经济
+https://php.52sf.ga/jmstvhg.php?id=jsszshjj
+#EXTINF:-1,tvg-id="苏州文化生活" tvg-name="苏州文化生活" group-title="江苏地方台", 苏州文化生活
+https://php.52sf.ga/jmstvhg.php?id=jsszwhsh
+#EXTINF:-1,tvg-id="苏州生活资讯" tvg-name="苏州生活资讯" group-title="江苏地方台", 苏州生活资讯
+https://php.52sf.ga/jmstvhg.php?id=jsszshzx
+#EXTINF:-1,tvg-id="张家港新闻综合" tvg-name="张家港新闻综合" group-title="江苏地方台", 张家港新闻综合
+http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8
+#EXTINF:-1,tvg-id="张家港民生频道" tvg-name="张家港民生频道" group-title="江苏地方台", 张家港民生频道
+http://3gvod.zjgonline.com.cn:1935/live/shehuishenghuo2/playlist.m3u8
+#EXTINF:-1,tvg-id="南京新闻综合" tvg-name="南京新闻综合" group-title="江苏地方台", 南京新闻综合
+http://live.nbs.cn/channels/njtv/xwzh/500k.m3u8
+#EXTINF:-1,tvg-id="南京科教频道" tvg-name="南京科教频道" group-title="江苏地方台", 南京科教频道
+http://live.nbs.cn/channels/njtv/jkpd/500k.m3u8
+#EXTINF:-1,tvg-id="南京生活频道" tvg-name="南京生活频道" group-title="江苏地方台", 南京生活频道
+http://live.nbs.cn/channels/njtv/shpd/500k.m3u8
+#EXTINF:-1,tvg-id="南京娱乐频道" tvg-name="南京娱乐频道" group-title="江苏地方台", 南京娱乐频道
+http://live.nbs.cn/channels/njtv/ylpd/500k.m3u8
+#EXTINF:-1,tvg-id="南京十八频道" tvg-name="南京十八频道" group-title="江苏地方台", 南京十八频道
+http://live.nbs.cn/channels/njtv/sbpd/500k.m3u8
+#EXTINF:-1,tvg-id="南京少儿频道" tvg-name="南京少儿频道" group-title="江苏地方台", 南京少儿频道
+http://live.nbs.cn/channels/njtv/sepd/500k.m3u8
+#EXTINF:-1,tvg-id="南京信息频道" tvg-name="南京信息频道" group-title="江苏地方台", 南京信息频道
+http://live.nbs.cn/channels/njtv/xxpd/500k.m3u8
