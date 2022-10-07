@@ -17,3 +17,11 @@ http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 https://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8
 #EXTINF:-1,tvg-id="如皋综合频道" tvg-name="如皋综合频道" group-title="江苏地方台", 如皋综合频道
 http://zhibo.erugao.cn/video/s10001-RGTV-hd/index.m3u8
+#EXTINF:-1,tvg-id="南通新闻综合" tvg-name="南通新闻综合" group-title="江苏地方台", 南通新闻综合
+http://cm.wshls.homecdn.com/live/7cc9.m3u8
+#EXTINF:-1,tvg-id="南通2套社教频道" tvg-name="南通2套社教频道" group-title="江苏地方台", 南通2套社教频道
+http://ott.mobaibox.com/PLTV/4/224/3221228448/index.m3u8
+#EXTINF:-1,tvg-id="南通3套公共频道" tvg-name="南通3套公共频道" group-title="江苏地方台", 南通3套公共频道
+http://ott.mobaibox.com/PLTV/4/224/3221228451/index.m3u8
+#EXTINF:-1,tvg-id="南通崇川TV" tvg-name="南通崇川TV" group-title="江苏地方台", 南通崇川TV
+http://ott.mobaibox.com/PLTV/4/224/3221228533/index.m3u8
