@@ -37,12 +37,16 @@ https://liveshowbak2.kan0512.com/norecord/ncsztv5_sd/playlist.m3u8
 https://liveshowbak2.kan0512.com/norecord/ncsztv4_sd/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 苏州综合(高清)
 http://liveshowbak2.kan0512.com/norecord/ncsztv1_sd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 昆山新闻
+http://pili-publish.living.ksrmtzx.com/ksntv/ks-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 张家港新闻HD
 http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8?checkedby:hlscat.com
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 张家港综合HD
 http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 张家港民生HD
 http://3gvod.zjgonline.com.cn:1935/live/shehuishenghuo2/chunklist_w37722388.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 靖江综合
+http://visit.jjbctv.com:1935/live/xwzhpc/playlist.m3u8?
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京新闻综合
 http://live.nbs.cn/channels/njtv/xwzh/500k.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京科教频道
@@ -65,6 +69,10 @@ http://stream.0515yc.cn/yctv1/playlist.m3u8
 http://stream.0515yc.cn/yctv3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 盐城法制生活
 http://stream.0515yc.cn/yctv2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 大丰公共
+http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafenget.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 大丰新闻
+http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafengyt.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 淮安综合
 https://php.52sf.ga/jmstvhg.php?id=jshazh
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 淮安公共
