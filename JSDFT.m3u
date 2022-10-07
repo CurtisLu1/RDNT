@@ -141,7 +141,6 @@ http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230226/index.m3u8
 
 #EXTINF:-1 group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvdzdy.png",动作电影
 http://39.134.65.164/PLTV/88888888/224/3221225555/1.m3u8
-#http://39.134.65.166/PLTV/88888888/224/3221225555/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV惊悚悬疑" tvg-name="NEWTV惊悚悬疑" group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjsxy.png",惊悚悬疑
 http://39.134.65.166/PLTV/88888888/224/3221225553/1.m3u8
 #EXTINF:-1 group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvgzjc.png",古装剧场
@@ -155,14 +154,12 @@ http://39.134.65.164/PLTV/88888888/224/3221225560/1.m3u8
 http://39.134.65.166/PLTV/88888888/224/3221225521/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV爱情喜剧" tvg-name="NEWTV爱情喜剧" group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvaqxj.png",爱情喜剧
 http://39.134.65.166/PLTV/88888888/224/3221225533/1.m3u8
-#http://39.134.65.164/PLTV/88888888/224/3221225533/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV军事评论" tvg-name="NEWTV军事评论" group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjspl.png",军事评论
 http://39.134.65.166/PLTV/88888888/224/3221225535/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV炫舞未来" tvg-name="NEWTV炫舞未来" group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvxwwl.png",炫舞未来
 
 #EXTINF:-1 tvg-id="NEWTV潮妈辣婆" tvg-name="NEWTV潮妈辣婆" group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcmlp.png",潮妈辣婆
 http://39.134.65.166/PLTV/88888888/224/3221225542/1.m3u8
-#http://39.134.65.164/PLTV/88888888/224/3221225542/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV金牌综艺" tvg-name="NEWTV金牌综艺" group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjpzy.png",金牌综艺
 http://39.134.65.166/PLTV/88888888/224/3221225525/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV农业致富" tvg-name="NEWTV农业致富" group-title="轮播" tvg-logo="https://www.hualigs.cn/image/6152b442a20a7.jpg",农业致富
@@ -179,41 +176,17 @@ http://39.134.65.166/PLTV/88888888/224/3221225526/1.m3u8
 http://39.134.65.166/PLTV/88888888/224/3221225545/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV怡伴健康" tvg-name="NEWTV怡伴健康" group-title="轮播" tvg-logo="https://www.hualigs.cn/image/6152b4428f069.jpg",怡伴健康
 http://39.134.65.164/PLTV/88888888/224/3221225571/1.m3u8
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",健康有约
 
 #EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",精品综合
 http://39.134.65.166/PLTV/88888888/224/3221225550/1.m3u8
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",精品电影
-
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",动画王国
-
 #EXTINF:-1 group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcjzy.png",超级综艺
 http://39.134.65.164/PLTV/88888888/224/3221225642/1.m3u8
-#http://39.134.65.162/PLTV/88888888/224/3221225642/1.m3u8
 #EXTINF:-1 group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcjty.png",超级体育
 http://39.134.65.164/PLTV/88888888/224/3221225635/1.m3u8
-#http://39.134.65.162/PLTV/88888888/224/3221225635/1.m3u8
 #EXTINF:-1 group-title="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcjdy.png",超级电影
 http://39.134.65.164/PLTV/88888888/224/3221225644/1.m3u8
-#http://39.134.65.179/PLTV/88888888/224/3221225644/1.m3u8
 #EXTINF:-1 group-title="轮播" tvg-logo="",超级电视剧
 http://39.134.65.164/PLTV/88888888/224/3221225637/1.m3u8
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",江西频道
-
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",山东频道
-
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",广东频道
-
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",广西频道
-
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",四川频道
-
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",云南频道
-
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",吉林频道
-
-#EXTINF:-1 group-title="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",黑龙江台
-
 #EXTINF:-1 group-title="轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU军旅剧场
 http://117.148.179.134/PLTV/88888888/224/3221231585/index.m3u8
 #EXTINF:-1 group-title="轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU喜剧联盟
