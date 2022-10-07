@@ -145,7 +145,6 @@ http://39.134.65.164/PLTV/88888888/224/3221225555/1.m3u8
 http://39.134.65.166/PLTV/88888888/224/3221225553/1.m3u8
 #EXTINF:-1 tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvgzjc.png",古装剧场
 http://39.134.65.164/PLTV/88888888/224/3221225524/1.m3u8
-#http://39.134.65.166/PLTV/88888888/224/3221225524/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV家庭剧场" tvg-name="NEWTV家庭剧场" tvg-id="轮播" tvg-logo="https://www.hualigs.cn/image/6152b4427ea36.jpg",家庭剧场
 http://39.134.65.166/PLTV/88888888/224/3221225538/1.m3u8
 #EXTINF:-1 tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjljc.png",军旅剧场
@@ -156,8 +155,6 @@ http://39.134.65.166/PLTV/88888888/224/3221225521/1.m3u8
 http://39.134.65.166/PLTV/88888888/224/3221225533/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV军事评论" tvg-name="NEWTV军事评论" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjspl.png",军事评论
 http://39.134.65.166/PLTV/88888888/224/3221225535/1.m3u8
-#EXTINF:-1 tvg-id="NEWTV炫舞未来" tvg-name="NEWTV炫舞未来" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvxwwl.png",炫舞未来
-
 #EXTINF:-1 tvg-id="NEWTV潮妈辣婆" tvg-name="NEWTV潮妈辣婆" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcmlp.png",潮妈辣婆
 http://39.134.65.166/PLTV/88888888/224/3221225542/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV金牌综艺" tvg-name="NEWTV金牌综艺" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjpzy.png",金牌综艺
@@ -174,8 +171,6 @@ http://39.134.65.166/PLTV/88888888/224/3221225536/1.m3u8
 http://39.134.65.166/PLTV/88888888/224/3221225526/1.m3u8
 #EXTINF:-1 tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjpjl.png",精品纪录
 http://39.134.65.166/PLTV/88888888/224/3221225545/1.m3u8
-#EXTINF:-1 tvg-id="NEWTV怡伴健康" tvg-name="NEWTV怡伴健康" tvg-id="轮播" tvg-logo="https://www.hualigs.cn/image/6152b4428f069.jpg",怡伴健康
-http://39.134.65.164/PLTV/88888888/224/3221225571/1.m3u8
 
 #EXTINF:-1 tvg-id="轮播" tvg-logo="https://www.hualigs.cn/image/61bc882f8cb3b.jpg",精品综合
 http://39.134.65.166/PLTV/88888888/224/3221225550/1.m3u8
@@ -185,7 +180,7 @@ http://39.134.65.164/PLTV/88888888/224/3221225642/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225635/1.m3u8
 #EXTINF:-1 tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcjdy.png",超级电影
 http://39.134.65.164/PLTV/88888888/224/3221225644/1.m3u8
-#EXTINF:-1 tvg-id="轮播" tvg-logo="",超级电视剧
+#EXTINF:-1 tvg-id="轮播",超级电视剧
 http://39.134.65.164/PLTV/88888888/224/3221225637/1.m3u8
 #EXTINF:-1 tvg-id="轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU军旅剧场
 http://117.148.179.134/PLTV/88888888/224/3221231585/index.m3u8
