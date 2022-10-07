@@ -16,7 +16,7 @@ http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 如东新闻综合
 https://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南通新闻综合
-http://cm.wshls.homecdn.com/live/7cc9.m3u8
+https://res.ntjoy.com/butelvod/764620e5-f830-4dfe-8739-bac76b90aa9a.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南通2套社教频道
 http://ott.mobaibox.com/PLTV/4/224/3221228448/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南通3套公共频道
@@ -69,8 +69,6 @@ http://stream.0515yc.cn/yctv2/playlist.m3u8
 https://php.52sf.ga/jmstvhg.php?id=jshazh
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 淮安公共
 https://php.52sf.ga/jmstvhg.php?id=jshagg
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 淮安影视娱乐
-https://php.52sf.ga/jmstvhg.php?id=jshays
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 泰州-2
 https://php.52sf.ga/jmstvhg.php?id=jstz2
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 泰州-3
