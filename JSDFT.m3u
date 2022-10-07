@@ -1,22 +1,20 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡新闻综合
-https://php.52sf.ga/jmstvhg.php?id=jswxxw
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡娱乐
-https://php.52sf.ga/jmstvhg.php?id=jswxyl
+http://m.m3u8.wifiwx.com:80/live/wifiwx-239.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡娱乐频道
+http://m.m3u8.wifiwx.com/live/wifiwx-243.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡都市资讯
-https://php.52sf.ga/jmstvhg.php?id=jswxds
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡生活
-https://php.52sf.ga/jmstvhg.php?id=jswxsh
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡经济
-https://php.52sf.ga/jmstvhg.php?id=jswxjj
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 江阴新闻综合频道
-http://jytv-2-live.weecloud.cn/prod/VGc5sOSw7oLpEABc.m3u8
+http://m.m3u8.wifiwx.com/live/wifiwx-240.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡生活频道
+http://m.m3u8.wifiwx.com/live/wifiwx-244.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡经济频道
+http://m.m3u8.wifiwx.com/live/wifiwx-245.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡移动频道
+https://m.m3u8.wifiwx.com/live/wifiwx-494.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 宜兴新闻综合频道
 http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 如东新闻综合
 https://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 如皋综合频道
-http://zhibo.erugao.cn/video/s10001-RGTV-hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南通新闻综合
 http://cm.wshls.homecdn.com/live/7cc9.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南通2套社教频道
@@ -39,8 +37,10 @@ https://liveshowbak2.kan0512.com/norecord/ncsztv5_sd/playlist.m3u8
 https://liveshowbak2.kan0512.com/norecord/ncsztv4_sd/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 苏州综合(高清)
 http://liveshowbak2.kan0512.com/norecord/ncsztv1_sd/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 张家港新闻综合
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 张家港新闻HD
 http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8?checkedby:hlscat.com
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 张家港综合HD
+http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 张家港民生HD
 http://3gvod.zjgonline.com.cn:1935/live/shehuishenghuo2/chunklist_w37722388.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京新闻综合
@@ -57,8 +57,6 @@ http://live.nbs.cn/channels/njtv/sbpd/500k.m3u8
 http://live.nbs.cn/channels/njtv/sepd/500k.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京信息频道
 http://live.nbs.cn/channels/njtv/xxpd/500k.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 江苏金陵之声
-http://lzlive.vojs.cn/Hd2hIgM/92/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 扬中新闻频道
 http://yangzhong-tv-hls.cm.jstv.com/yangzhong-tv/xwzh.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 盐城新闻综合
@@ -73,8 +71,6 @@ https://php.52sf.ga/jmstvhg.php?id=jshazh
 https://php.52sf.ga/jmstvhg.php?id=jshagg
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 淮安影视娱乐
 https://php.52sf.ga/jmstvhg.php?id=jshays
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 泰州-1
-https://php.52sf.ga/jmstvhg.php?id=jstz1
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 泰州-2
 https://php.52sf.ga/jmstvhg.php?id=jstz2
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 泰州-3
