@@ -77,8 +77,6 @@ https://php.52sf.ga/jmstvhg.php?id=jstz2
 https://php.52sf.ga/jmstvhg.php?id=jstz3
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 淮阴综合频道
 http://huaiyin-tv-hls.cm.jstv.com/huaiyin-tv/huaiyinf.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 连云港公共
-http://live.lyg1.com/ggpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 连云港综合
 http://live.lyg1.com/zhpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 盐城城市公共
@@ -87,27 +85,3 @@ http://stream.0515yc.cn/yctv3/playlist.m3u8
 http://183.207.248.11/PLTV/3/224/3221225945/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 徐州公共频道
 http://183.207.248.11/PLTV/3/224/3221225951/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西新闻频道
-http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv7.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西经济生活
-http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv3.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西都市频道
-http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv2.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西影视旅游
-http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv4.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西少儿家庭
-http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv6.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西移动电视
-http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv8.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西公共农业
-http://117.169.120.223:8080/hwrr.jx.chinamobile.com/PLTV/88888888/224/3221225578/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西陶瓷频道
-http://local.live.jxtvcn.com.cn/live-jxtv/tv_taoci.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌新闻综合
-http://39.135.138.58:18890/PLTV/88888888/224/3221226223/index.m3u8?zjiangxd
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌公共频道
-http://39.135.138.58:18890/PLTV/88888888/224/3221226231/index.m3u8?zjiangxd
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌都市频道
-http://39.135.138.58:18890/PLTV/88888888/224/3221226226/index.m3u8?zjiangxd
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌资讯政法
-http://39.135.138.58:18890/PLTV/88888888/224/3221226228/index.m3u8?zjiangxd
