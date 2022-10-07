@@ -104,10 +104,10 @@ http://117.169.120.223:8080/hwrr.jx.chinamobile.com/PLTV/88888888/224/3221225578
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西陶瓷频道
 http://local.live.jxtvcn.com.cn/live-jxtv/tv_taoci.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌新闻综合
-http://39.135.138.58:18890/PLTV/88888888/224/3221226223/index.m3u8
+http://39.135.138.58:18890/PLTV/88888888/224/3221226223/index.m3u8?zjiangxd
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌公共频道
-http://39.135.138.58:18890/PLTV/88888888/224/3221226231/index.m3u8
+http://39.135.138.58:18890/PLTV/88888888/224/3221226231/index.m3u8?zjiangxd
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌都市频道
-http://39.135.138.58:18890/PLTV/88888888/224/3221226226/index.m3u8
+http://39.135.138.58:18890/PLTV/88888888/224/3221226226/index.m3u8?zjiangxd
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌资讯政法
-http://39.135.138.58:18890/PLTV/88888888/224/3221226228/index.m3u8
+http://39.135.138.58:18890/PLTV/88888888/224/3221226228/index.m3u8?zjiangxd
