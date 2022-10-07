@@ -1,81 +1,117 @@
 #EXTM3U
-#EXTINF:-1,tvg-id="无锡新闻综合" tvg-name="无锡新闻综合" group-title="江苏地方台", 无锡新闻综合
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡新闻综合
 https://php.52sf.ga/jmstvhg.php?id=jswxxw
-#EXTINF:-1,tvg-id="无锡娱乐" tvg-name="无锡娱乐" group-title="江苏地方台", 无锡娱乐
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡娱乐
 https://php.52sf.ga/jmstvhg.php?id=jswxyl
-#EXTINF:-1,tvg-id="无锡都市资讯" tvg-name="无锡都市资讯" group-title="江苏地方台", 无锡都市资讯
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡都市资讯
 https://php.52sf.ga/jmstvhg.php?id=jswxds
-#EXTINF:-1,tvg-id="无锡生活" tvg-name="无锡生活" group-title="江苏地方台", 无锡生活
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡生活
 https://php.52sf.ga/jmstvhg.php?id=jswxsh
-#EXTINF:-1,tvg-id="无锡经济" tvg-name="无锡经济" group-title="江苏地方台", 无锡经济
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 无锡经济
 https://php.52sf.ga/jmstvhg.php?id=jswxjj
-#EXTINF:-1,tvg-id="江阴新闻综合频道" tvg-name="江阴新闻综合频道" group-title="江苏地方台", 江阴新闻综合频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 江阴新闻综合频道
 http://jytv-2-live.weecloud.cn/prod/VGc5sOSw7oLpEABc.m3u8
-#EXTINF:-1,tvg-id="宜兴新闻综合频道" tvg-name="宜兴新闻综合频道" group-title="江苏地方台", 宜兴新闻综合频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 宜兴新闻综合频道
 http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
-#EXTINF:-1,tvg-id="如东新闻综合" tvg-name="如东新闻综合" group-title="江苏地方台", 如东新闻综合
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 如东新闻综合
 https://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8
-#EXTINF:-1,tvg-id="如皋综合频道" tvg-name="如皋综合频道" group-title="江苏地方台", 如皋综合频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 如皋综合频道
 http://zhibo.erugao.cn/video/s10001-RGTV-hd/index.m3u8
-#EXTINF:-1,tvg-id="南通新闻综合" tvg-name="南通新闻综合" group-title="江苏地方台", 南通新闻综合
-http://ott.mobaibox.com/PLTV/4/224/3221228445/index.m3u8
-#EXTINF:-1,tvg-id="南通2套社教频道" tvg-name="南通2套社教频道" group-title="江苏地方台", 南通2套社教频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南通新闻综合
+http://cm.wshls.homecdn.com/live/7cc9.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南通2套社教频道
 http://ott.mobaibox.com/PLTV/4/224/3221228448/index.m3u8
-#EXTINF:-1,tvg-id="南通3套公共频道" tvg-name="南通3套公共频道" group-title="江苏地方台", 南通3套公共频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南通3套公共频道
 http://ott.mobaibox.com/PLTV/4/224/3221228451/index.m3u8
-#EXTINF:-1,tvg-id="南通崇川TV" tvg-name="南通崇川TV" group-title="江苏地方台", 南通崇川TV
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南通崇川TV
 http://ott.mobaibox.com/PLTV/4/224/3221228533/index.m3u8
-#EXTINF:-1,tvg-id="苏州4K频道" tvg-name="苏州4K频道" group-title="江苏地方台", 苏州4K频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 苏州4k
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
-#EXTINF:-1,tvg-id="苏州新闻综合" tvg-name="苏州新闻综合" group-title="江苏地方台", 苏州新闻综合
-https://php.52sf.ga/jmstvhg.php?id=jsszxwzh
-#EXTINF:-1,tvg-id="苏州社会经济" tvg-name="苏州社会经济" group-title="江苏地方台", 苏州社会经济
-https://php.52sf.ga/jmstvhg.php?id=jsszshjj
-#EXTINF:-1,tvg-id="苏州文化生活" tvg-name="苏州文化生活" group-title="江苏地方台", 苏州文化生活
-https://php.52sf.ga/jmstvhg.php?id=jsszwhsh
-#EXTINF:-1,tvg-id="苏州生活资讯" tvg-name="苏州生活资讯" group-title="江苏地方台", 苏州生活资讯
-https://php.52sf.ga/jmstvhg.php?id=jsszshzx
-#EXTINF:-1,tvg-id="张家港新闻综合" tvg-name="张家港新闻综合" group-title="江苏地方台", 张家港新闻综合
-http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8
-#EXTINF:-1,tvg-id="张家港民生频道" tvg-name="张家港民生频道" group-title="江苏地方台", 张家港民生频道
-http://3gvod.zjgonline.com.cn:1935/live/shehuishenghuo2/playlist.m3u8
-#EXTINF:-1,tvg-id="南京新闻综合" tvg-name="南京新闻综合" group-title="江苏地方台", 南京新闻综合
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 苏州新闻综合
+https://liveshowbak2.kan0512.com/norecord/ncsztv1_sd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 苏州社会经济
+https://liveshowbak2.kan0512.com/norecord/ncsztv2_sd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 苏州文化生活
+https://liveshowbak2.kan0512.com/norecord/ncsztv3_sd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 苏州生活资讯
+https://liveshowbak2.kan0512.com/norecord/ncsztv5_sd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 苏州电影娱乐
+https://liveshowbak2.kan0512.com/norecord/ncsztv4_sd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 苏州综合(高清)
+http://liveshowbak2.kan0512.com/norecord/ncsztv1_sd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 张家港新闻综合
+http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8?checkedby:hlscat.com
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 张家港民生HD
+http://3gvod.zjgonline.com.cn:1935/live/shehuishenghuo2/chunklist_w37722388.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京新闻综合
 http://live.nbs.cn/channels/njtv/xwzh/500k.m3u8
-#EXTINF:-1,tvg-id="南京科教频道" tvg-name="南京科教频道" group-title="江苏地方台", 南京科教频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京科教频道
 http://live.nbs.cn/channels/njtv/jkpd/500k.m3u8
-#EXTINF:-1,tvg-id="南京生活频道" tvg-name="南京生活频道" group-title="江苏地方台", 南京生活频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京生活频道
 http://live.nbs.cn/channels/njtv/shpd/500k.m3u8
-#EXTINF:-1,tvg-id="南京娱乐频道" tvg-name="南京娱乐频道" group-title="江苏地方台", 南京娱乐频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京娱乐频道
 http://live.nbs.cn/channels/njtv/ylpd/500k.m3u8
-#EXTINF:-1,tvg-id="南京十八频道" tvg-name="南京十八频道" group-title="江苏地方台", 南京十八频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京十八频道
 http://live.nbs.cn/channels/njtv/sbpd/500k.m3u8
-#EXTINF:-1,tvg-id="南京少儿频道" tvg-name="南京少儿频道" group-title="江苏地方台", 南京少儿频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京少儿频道
 http://live.nbs.cn/channels/njtv/sepd/500k.m3u8
-#EXTINF:-1,tvg-id="南京信息频道" tvg-name="南京信息频道" group-title="江苏地方台", 南京信息频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 南京信息频道
 http://live.nbs.cn/channels/njtv/xxpd/500k.m3u8
-#EXTINF:-1,tvg-id="盐城新闻综合" tvg-name="盐城新闻综合" group-title="江苏地方台", 盐城新闻综合
-http://ott.mobaibox.com/PLTV/4/224/3221228433/index.m3u8
-#EXTINF:-1,tvg-id="盐城法制生活" tvg-name="盐城法制生活" group-title="江苏地方台", 盐城法制生活
-http://ott.mobaibox.com/PLTV/4/224/3221228435/index.m3u8
-#EXTINF:-1,tvg-id="盐城城市公共" tvg-name="盐城城市公共" group-title="江苏地方台", 盐城城市公共
-http://ott.mobaibox.com/PLTV/4/224/3221228436/index.m3u8
-#EXTINF:-1,tvg-id="淮安综合" tvg-name="淮安综合" group-title="江苏地方台", 淮安综合
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 江苏金陵之声
+http://lzlive.vojs.cn/Hd2hIgM/92/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 扬中新闻频道
+http://yangzhong-tv-hls.cm.jstv.com/yangzhong-tv/xwzh.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 盐城新闻综合
+http://stream.0515yc.cn/yctv1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 盐城城市公共
+http://stream.0515yc.cn/yctv3/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 盐城法制生活
+http://stream.0515yc.cn/yctv2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 淮安综合
 https://php.52sf.ga/jmstvhg.php?id=jshazh
-#EXTINF:-1,tvg-id="淮安公共" tvg-name="淮安公共" group-title="江苏地方台", 淮安公共
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 淮安公共
 https://php.52sf.ga/jmstvhg.php?id=jshagg
-#EXTINF:-1,tvg-id="淮安影视娱乐" tvg-name="淮安影视娱乐" group-title="江苏地方台", 淮安影视娱乐
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 淮安影视娱乐
 https://php.52sf.ga/jmstvhg.php?id=jshays
-#EXTINF:-1,tvg-id="泰州-1" tvg-name="泰州-1" group-title="江苏地方台", 泰州-1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 泰州-1
 https://php.52sf.ga/jmstvhg.php?id=jstz1
-#EXTINF:-1,tvg-id="泰州-2" tvg-name="泰州-2" group-title="江苏地方台", 泰州-2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 泰州-2
 https://php.52sf.ga/jmstvhg.php?id=jstz2
-#EXTINF:-1,tvg-id="泰州-3" tvg-name="泰州-3" group-title="江苏地方台", 泰州-3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 泰州-3
 https://php.52sf.ga/jmstvhg.php?id=jstz3
-#EXTINF:-1,tvg-id="南昌新闻综合" tvg-name="南昌新闻综合" group-title="江苏地方台", 南昌新闻综合
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 淮阴综合频道
+http://huaiyin-tv-hls.cm.jstv.com/huaiyin-tv/huaiyinf.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 连云港公共
+http://live.lyg1.com/ggpd/sd/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 连云港综合
+http://live.lyg1.com/zhpd/sd/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 盐城城市公共
+http://stream.0515yc.cn/yctv3/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 徐州新闻综合
+http://183.207.248.11/PLTV/3/224/3221225945/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江苏地方台", 徐州公共频道
+http://183.207.248.11/PLTV/3/224/3221225951/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西新闻频道
+http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv7.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西经济生活
+http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv3.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西都市频道
+http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv2.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西影视旅游
+http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv4.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西少儿家庭
+http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv6.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西移动电视
+http://local.live.jxtvcn.com.cn/live-jxtv/tv_jxtv8.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西公共农业
+http://117.169.120.223:8080/hwrr.jx.chinamobile.com/PLTV/88888888/224/3221225578/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 江西陶瓷频道
+http://local.live.jxtvcn.com.cn/live-jxtv/tv_taoci.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌新闻综合
 http://39.135.138.58:18890/PLTV/88888888/224/3221226223/index.m3u8
-#EXTINF:-1,tvg-id="南昌都市频道" tvg-name="南昌都市频道" group-title="江苏地方台", 南昌都市频道
-http://39.135.138.58:18890/PLTV/88888888/224/3221226226/index.m3u8
-#EXTINF:-1,tvg-id="南昌资讯政法" tvg-name="南昌资讯政法" group-title="江苏地方台", 南昌资讯政法
-http://39.135.138.58:18890/PLTV/88888888/224/3221226228/index.m3u8
-#EXTINF:-1,tvg-id="南昌公共频道" tvg-name="南昌公共频道" group-title="江苏地方台", 南昌公共频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌公共频道
 http://39.135.138.58:18890/PLTV/88888888/224/3221226231/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌都市频道
+http://39.135.138.58:18890/PLTV/88888888/224/3221226226/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="江西", 南昌资讯政法
+http://39.135.138.58:18890/PLTV/88888888/224/3221226228/index.m3u8
