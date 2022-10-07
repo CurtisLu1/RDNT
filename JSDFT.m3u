@@ -53,3 +53,29 @@ http://live.nbs.cn/channels/njtv/sbpd/500k.m3u8
 http://live.nbs.cn/channels/njtv/sepd/500k.m3u8
 #EXTINF:-1,tvg-id="南京信息频道" tvg-name="南京信息频道" group-title="江苏地方台", 南京信息频道
 http://live.nbs.cn/channels/njtv/xxpd/500k.m3u8
+#EXTINF:-1,tvg-id="盐城新闻综合" tvg-name="盐城新闻综合" group-title="江苏地方台", 盐城新闻综合
+http://ott.mobaibox.com/PLTV/4/224/3221228433/index.m3u8
+#EXTINF:-1,tvg-id="盐城法制生活" tvg-name="盐城法制生活" group-title="江苏地方台", 盐城法制生活
+http://ott.mobaibox.com/PLTV/4/224/3221228435/index.m3u8
+#EXTINF:-1,tvg-id="盐城城市公共" tvg-name="盐城城市公共" group-title="江苏地方台", 盐城城市公共
+http://ott.mobaibox.com/PLTV/4/224/3221228436/index.m3u8
+#EXTINF:-1,tvg-id="淮安综合" tvg-name="淮安综合" group-title="江苏地方台", 淮安综合
+https://php.52sf.ga/jmstvhg.php?id=jshazh
+#EXTINF:-1,tvg-id="淮安公共" tvg-name="淮安公共" group-title="江苏地方台", 淮安公共
+https://php.52sf.ga/jmstvhg.php?id=jshagg
+#EXTINF:-1,tvg-id="淮安影视娱乐" tvg-name="淮安影视娱乐" group-title="江苏地方台", 淮安影视娱乐
+https://php.52sf.ga/jmstvhg.php?id=jshays
+#EXTINF:-1,tvg-id="泰州-1" tvg-name="泰州-1" group-title="江苏地方台", 泰州-1
+https://php.52sf.ga/jmstvhg.php?id=jstz1
+#EXTINF:-1,tvg-id="泰州-2" tvg-name="泰州-2" group-title="江苏地方台", 泰州-2
+https://php.52sf.ga/jmstvhg.php?id=jstz2
+#EXTINF:-1,tvg-id="泰州-3" tvg-name="泰州-3" group-title="江苏地方台", 泰州-3
+https://php.52sf.ga/jmstvhg.php?id=jstz3
+#EXTINF:-1,tvg-id="南昌新闻综合" tvg-name="南昌新闻综合" group-title="江苏地方台", 南昌新闻综合
+http://39.135.138.58:18890/PLTV/88888888/224/3221226223/index.m3u8
+#EXTINF:-1,tvg-id="南昌都市频道" tvg-name="南昌都市频道" group-title="江苏地方台", 南昌都市频道
+http://39.135.138.58:18890/PLTV/88888888/224/3221226226/index.m3u8
+#EXTINF:-1,tvg-id="南昌资讯政法" tvg-name="南昌资讯政法" group-title="江苏地方台", 南昌资讯政法
+http://39.135.138.58:18890/PLTV/88888888/224/3221226228/index.m3u8
+#EXTINF:-1,tvg-id="南昌公共频道" tvg-name="南昌公共频道" group-title="江苏地方台", 南昌公共频道
+http://39.135.138.58:18890/PLTV/88888888/224/3221226231/index.m3u8
