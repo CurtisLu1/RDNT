@@ -20,11 +20,11 @@ http://zhibo.erugao.cn/video/s10001-RGTV-hd/index.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",南通新闻综合
 http://cm.wshls.homecdn.com/live/7cc9.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",南通2套社教频道
-http://cm.wshls.homecdn.com/live/7cc7.m3u8
+http://ott.mobaibox.com/PLTV/4/224/3221228448/index.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",南通3套公共频道
-http://cm.wshls.homecdn.com/live/7cc5.m3u8
+http://ott.mobaibox.com/PLTV/4/224/3221228451/index.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",南通崇川TV
-http://cm.wshls.homecdn.com/live/7cc1.m3u8
+http://ott.mobaibox.com/PLTV/4/224/3221228533/index.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",苏州4K频道
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",苏州新闻综合
@@ -54,11 +54,11 @@ http://live.nbs.cn/channels/njtv/sepd/500k.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",南京信息频道
 http://live.nbs.cn/channels/njtv/xxpd/500k.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",盐城新闻综合
-https://php.52sf.ga/jmstvhg.php?id=jsyc1
+http://ott.mobaibox.com/PLTV/4/224/3221228433/index.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",盐城法制生活
-https://php.52sf.ga/jmstvhg.php?id=jsyc2
+http://ott.mobaibox.com/PLTV/4/224/3221228435/index.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",盐城城市公共
-https://php.52sf.ga/jmstvhg.php?id=jsyc3
+http://ott.mobaibox.com/PLTV/4/224/3221228436/index.m3u8
 #EXTINF:-1 tvg-id="江苏地方台",淮安综合
 https://php.52sf.ga/jmstvhg.php?id=jshazh
 #EXTINF:-1 tvg-id="江苏地方台",淮安公共
@@ -156,8 +156,6 @@ http://39.134.65.166/PLTV/88888888/224/3221225521/1.m3u8
 http://39.134.65.166/PLTV/88888888/224/3221225533/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV军事评论" tvg-name="NEWTV军事评论" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjspl.png",军事评论
 http://39.134.65.166/PLTV/88888888/224/3221225535/1.m3u8
-#EXTINF:-1 tvg-id="NEWTV炫舞未来" tvg-name="NEWTV炫舞未来" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvxwwl.png",炫舞未来
-
 #EXTINF:-1 tvg-id="NEWTV潮妈辣婆" tvg-name="NEWTV潮妈辣婆" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvcmlp.png",潮妈辣婆
 http://39.134.65.166/PLTV/88888888/224/3221225542/1.m3u8
 #EXTINF:-1 tvg-id="NEWTV金牌综艺" tvg-name="NEWTV金牌综艺" tvg-id="轮播" tvg-logo="http://n.ysyz.top:99/buyaolian/newtvjpzy.png",金牌综艺
