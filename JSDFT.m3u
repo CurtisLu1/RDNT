@@ -16,13 +16,11 @@ http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 如东新闻综合
 https://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南通新闻综合
-https://res.ntjoy.com/butelvod/764620e5-f830-4dfe-8739-bac76b90aa9a.m3u8
+http://nttv.wshls.homecdn.com/live/7cc9.m3u8?t=1665191121&k=a6fdf87f1147447706baab59eb9267e3&wsSession=b4aa19f21424a2ab462d19b5-166519112175410&wsIPSercert=93d674b9b879b49ad3ee7ab75e81a61e&wsMonitor=0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南通2套社教频道
 https://nttv-wshls.homecdn.com/live/7cc7.m3u8?t=1665190795&k=884ed955f9f7460f337e9ff4e0d29a2a&wsSession=c5e1934a8c69e6b4338deb42-166519079671895&wsIPSercert=93d674b9b879b49ad3ee7ab75e81a61e&wsMonitor=0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南通3套公共频道
-https://res.ntjoy.com/butelvod/0bdda6c7-f2c8-4d34-965e-4b8660b5ec56.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南通崇川TV
-https://res.ntjoy.com/butelvod/3e48f392-21cb-41ca-9bbe-489ddd0ef03a.m3u8
+http://nttv.wshls.homecdn.com/live/7cc5.m3u8?t=1665191179&k=a37b68e8eefd80c0f903b8169c1b728a&wsSession=be051477f1e07d41e1e5540b-166519118013396&wsIPSercert=93d674b9b879b49ad3ee7ab75e81a61e&wsMonitor=0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 苏州4k
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 苏州新闻综合
