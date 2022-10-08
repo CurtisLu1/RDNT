@@ -18,11 +18,11 @@ https://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南通新闻综合
 https://res.ntjoy.com/butelvod/764620e5-f830-4dfe-8739-bac76b90aa9a.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南通2套社教频道
-http://ott.mobaibox.com/PLTV/4/224/3221228448/index.m3u8
+https://nttv-wshls.homecdn.com/live/7cc7.m3u8?t=1665190795&k=884ed955f9f7460f337e9ff4e0d29a2a&wsSession=c5e1934a8c69e6b4338deb42-166519079671895&wsIPSercert=93d674b9b879b49ad3ee7ab75e81a61e&wsMonitor=0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南通3套公共频道
-http://ott.mobaibox.com/PLTV/4/224/3221228451/index.m3u8
+https://res.ntjoy.com/butelvod/0bdda6c7-f2c8-4d34-965e-4b8660b5ec56.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南通崇川TV
-http://ott.mobaibox.com/PLTV/4/224/3221228533/index.m3u8
+https://res.ntjoy.com/butelvod/3e48f392-21cb-41ca-9bbe-489ddd0ef03a.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 苏州4k
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 苏州新闻综合
@@ -73,8 +73,6 @@ http://stream.0515yc.cn/yctv2/playlist.m3u8
 http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafenget.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 大丰新闻
 http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafengyt.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 淮安综合
-https://php.52sf.ga/jmstvhg.php?id=jshazh
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 淮安公共
 https://php.52sf.ga/jmstvhg.php?id=jshagg
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 泰州-2
