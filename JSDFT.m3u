@@ -2,6 +2,12 @@
 // 以下源引用自https://raw.githubusercontent.com/vamoschuck/TV/main/M3U
 // 以下源引用自https://cx342662.github.io/cy.txt
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 江苏公共新闻
+http://litchiapp-rtmp.jstv.com/lizhiapp/jsgg.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 江苏体育休闲
+http://litchiapp-rtmp.jstv.com/lizhiapp/jsty.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 江苏城市频道
+http://litchiapp-rtmp.jstv.com/lizhiapp/jscs.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 无锡新闻综合
 http://m.m3u8.wifiwx.com:80/live/wifiwx-239.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 无锡娱乐频道
@@ -100,6 +106,14 @@ http://live.plus.hugd.com/xwzhpd/sd/live.m3u8
 http://live1.plus.hugd.com/ggpd1/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 湖州文化娱乐
 http://live.plus.hugd.com/whylpd/sd/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南昌综合频道
+http://121.51.249.6/live.nctv.net.cn/live/nctv1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南昌都市频道
+http://121.51.249.6/live.nctv.net.cn/live/nctv2.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南昌资讯政法
+http://121.51.249.6/live.nctv.net.cn/live/nctv3.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 南昌公共频道
+http://121.51.249.6/live.nctv.net.cn/live/nctv4.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视", CCTV1
 http://111.32.169.223/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2000210103.m3u8
