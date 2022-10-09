@@ -261,16 +261,20 @@ http://111.20.33.93/TVOD/88888893/224/3221226462/index.m3u8
 http://111.20.33.93/PLTV/88888893/224/3221226463/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/CHCdongzuo.png" group-title="杂项",CHC动作电影
 http://111.20.33.93/TVOD/88888893/224/3221226465/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/jinyingjishi.png" group-title="杂项",金鹰纪实
-http://111.20.33.93/TVOD/88888893/224/3221226351/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/qsdw.png" group-title="杂项",求索动物
 http://111.11.123.30:6610/000000001000/6000000002000010046/1.m3u8?Contentid=6000000002000010046&livemode=1&stbId=3&channel-id=wasusyt
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/qskx.png" group-title="杂项",求索科学
 http://111.11.123.30:6610/000000001000/6000000002000032344/1.m3u8?Contentid=6000000002000032344&livemode=1&stbId=3&channel-id=wasusyt
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/qssh.png" group-title="杂项",求索生活
 http://111.11.123.30:6610/000000001000/6000000002000003382/1.m3u8?Contentid=6000000002000003382&livemode=1&stbId=3&channel-id=wasusyt
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/jishirenwen.png" group-title="杂项",纪实人文
-http://39.134.115.163:8080/PLTV/88888910/224/3221225655/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" group-title="杂项", 北京纪实
+http://39.134.115.163:8080/PLTV/88888910/224/3221225676/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/jinyingjishi.png" group-title="杂项",金鹰纪实
+http://111.20.33.93/TVOD/88888893/224/3221226351/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="杂项", 上海纪实
+http://39.134.115.163:8080/PLTV/88888910/224/3221225654/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" group-title="杂项", 欢笑剧场
+http://183.207.255.188/live/program/live/hxjchd/4000000/mnf.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" group-title="港澳台",翡翠台
 http://23.237.10.66:16106
