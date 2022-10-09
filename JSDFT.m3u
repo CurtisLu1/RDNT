@@ -155,6 +155,8 @@ http://111.32.169.223/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012375003.m3u8
 http://111.32.169.223/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2000204203.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/cctv4k.png" group-title="央视",CCTV4K
 http://111.32.169.223/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2000266303.m3u8
+#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="央视", CCTV8K
+http://117.148.129.93:80/PLTV/88888888/224/3221233350/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="央视",CGTN英语
 http://111.32.169.223/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2001656803.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="央视",CGTN法语
