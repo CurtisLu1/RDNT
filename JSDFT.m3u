@@ -80,8 +80,6 @@ http://stream.0515yc.cn/yctv2/playlist.m3u8
 http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafenget.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 大丰新闻频道
 http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafengyt.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 淮安公共频道
-https://php.52sf.ga/jmstvhg.php?id=jshagg
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 泰州-2频道
 https://php.52sf.ga/jmstvhg.php?id=jstz2
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方台", 泰州-3频道
