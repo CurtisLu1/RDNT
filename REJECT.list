@@ -346,6 +346,10 @@ URL-REGEX,^https?:\/\/.*\.xima.*\.com\/guideWord
 URL-REGEX,^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime
 # 屏蔽ting_Ad
 URL-REGEX,^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)?
+# 屏蔽其他杂项
+URL-REGEX,^http:\/\/adse\.ximalaya\.com\/(ting|adx)(?!preSale)
+DOMAIN,gslbali.ximalaya.com
+DOMAIN,gslbtx.ximalaya.com
 
 # WeiboLite_微博国际版
 # WeiboLite_微博国际版_sdkad@ddgksf2013
