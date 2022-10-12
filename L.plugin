@@ -40,7 +40,7 @@ http-response https://note.youdao.com/yws/(mapi/payment|api/self) requires-body=
 http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiaoben/MeiTuXiuXiu.js
 
 # 喜马拉雅
-http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmlyad.js
+http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
 
 # 解锁 DayOne 订阅
 http-response https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt)), script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
