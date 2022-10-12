@@ -2,6 +2,9 @@
 #!desc=自用plugin解锁会员
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/accu.png
 
+[Header Rewrite]
+https:\/\/api\.revenuecat\.com header-del x-revenuecat-etag
+
 [Script]
 
 # Choler 
