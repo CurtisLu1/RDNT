@@ -1,9 +1,6 @@
 #!name=自用plugin
 #!desc=自用plugin解锁会员
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/accu.png
-
-[Header Rewrite]
-https:\/\/api\.revenuecat\.com header-del x-revenuecat-etag
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/Plugallery.png
 
 [Script]
 
@@ -24,9 +21,6 @@ http-request ^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ui)) requires-body=1,max-si
 
 # Spark解锁订阅
 http-response https:\/\/api\.revenuecat\.com requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Hpxwd/Surge/main/Js/revenuecat.js
-
-# Fileball Pro解锁
-http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/fileball.js
 
 # PDF Expert点睛+解锁订阅
 http-response ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PDFExpert.js
@@ -49,4 +43,4 @@ http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)
 # 解锁 DayOne 订阅
 http-response https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt)), script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
 
-hostname = lchttpapi.xczim.com, cupfox.app, note.youdao.com, license.pdfexpert.com,h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, vip1.kuwo.cn, musicpay.kuwo.cn, api.revenuecat.com, *.xima*.*, *.xmcdn.*, mobile.ximalaya.com, dayone.me, dayone.app, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, wx.mygolbs.com, api.ithome.com, m.ithome.com, mp.weixin.qq.com
+hostname = lchttpapi.xczim.com, cupfox.app, note.youdao.com, license.pdfexpert.com,h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, vip1.kuwo.cn, musicpay.kuwo.cn, *.xima*.*, *.xmcdn.*, mobile.ximalaya.com, dayone.me, dayone.app, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, wx.mygolbs.com, api.ithome.com, m.ithome.com, mp.weixin.qq.com
