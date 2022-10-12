@@ -45,4 +45,4 @@ http-request ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(\$RCA
 
 
 [MITM]
-hostname = lchttpapi.xczim.com, cupfox.app, note.youdao.com, license.pdfexpert.com,h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, *.xima*.*, *.xmcdn.*, mobile.ximalaya.com, dayone.me, dayone.app, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, wx.mygolbs.com, api.ithome.com, m.ithome.com, mp.weixin.qq.com, pi.revenuecat.com
+hostname = lchttpapi.xczim.com, cupfox.app, note.youdao.com, license.pdfexpert.com,h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, *.xima*.*, *.xmcdn.*, mobile.ximalaya.com, dayone.me, dayone.app, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, wx.mygolbs.com, api.ithome.com, m.ithome.com, mp.weixin.qq.com, api.revenuecat.com
