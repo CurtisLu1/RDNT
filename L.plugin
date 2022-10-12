@@ -1,0 +1,37 @@
+# KuWo music unlock vip
+http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+http-request ^https?:\/\/musicpay\.kuwo.cn\/music\.pay\?uid=\d+ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/KuWoMusicDownload.js
+# 酷我换肤(已经有的皮肤需要先从本地皮肤删除再换 By@ s y)
+http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/themekuwo.js
+
+# Spark解锁订阅
+http-response https:\/\/api\.revenuecat\.com requires-body=1,max-size=0,script-path=script-path=https://raw.githubusercontent.com/Hpxwd/Surge/main/Js/revenuecat.js
+
+# APTV Pro解锁
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/aptv.js
+
+# Fileball Pro解锁
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/fileball.js
+
+# PDF Expert点睛+解锁订阅
+http-response ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PDFExpert.js
+
+# 解锁西窗烛订阅
+http-response https://lchttpapi.xczim.com/* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
+
+# 茶杯狐[网页优化]@ddgksf2013 - 网站地址：https://cupfox.app/
+http-response ^https?:/\/cupfox\.app(\/?$|\/([?]|search).*$) requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/JS/cupbox.js
+
+# 有道云笔记解锁V
+http-response https://note.youdao.com/yws/(mapi/payment|api/self) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiaoben/ydybj.js
+
+# 美图秀秀(2022.01.17) 解锁高级V（包括但不限于：付费海报模板、高级滤镜、高级素材等），无须登陆!
+http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiaoben/MeiTuXiuXiu.js
+
+# 喜马拉雅
+http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmlyad.js
+
+# 解锁 DayOne 订阅
+http-response https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt)), script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
+
+hostname = buy.itunes.apple.com, lchttpapi.xczim.com, cupfox.app, note.youdao.com, license.pdfexpert.com,h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, vip1.kuwo.cn, musicpay.kuwo.cn, api.revenuecat.com, *.xima*.*, *.xmcdn.*, mobile.ximalaya.com, dayone.me, dayone.app, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com
