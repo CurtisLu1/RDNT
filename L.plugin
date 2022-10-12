@@ -2,6 +2,9 @@
 #!desc=自用plugin解锁会员
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/Plugallery.png
 
+[Header Rewrite]
+https:\/\/api\.revenuecat\.com header-del x-revenuecat-etag
+
 [Script]
 
 # Choler 
@@ -34,6 +37,12 @@ http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)
 http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
 
 # 解锁 DayOne 订阅
-http-response https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt)), script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
+http-response https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt)) requires-body=1,max-size=0,script-path==https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
 
-hostname = lchttpapi.xczim.com, cupfox.app, note.youdao.com, license.pdfexpert.com,h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, *.xima*.*, *.xmcdn.*, mobile.ximalaya.com, dayone.me, dayone.app, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, wx.mygolbs.com, api.ithome.com, m.ithome.com, mp.weixin.qq.com
+# 解锁Pro-Eric(tiao,fileball,谜底时钟,白云天气,目标地图,VSCO,Planny,pillow,Usage,Fin,Airmail,Percento,Grow,图图记账)
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(\$RCAnonymousID%3A\w{32}|\w{34}|\S{36}|\S{28}))$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/revenuecat.js
+http-request ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(\$RCAnonymousID%3A\w{32}|\w{34}|\S{36}|\S{28})) requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/bytq.js,script-update-interval=0
+
+
+[MITM]
+hostname = lchttpapi.xczim.com, cupfox.app, note.youdao.com, license.pdfexpert.com,h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, *.xima*.*, *.xmcdn.*, mobile.ximalaya.com, dayone.me, dayone.app, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, wx.mygolbs.com, api.ithome.com, m.ithome.com, mp.weixin.qq.com, pi.revenuecat.com
