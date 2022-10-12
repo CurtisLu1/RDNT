@@ -1,6 +1,6 @@
-#!name= 自用plugin
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/Plugallery.png
-#!desc= 自用plugin
+#!name=自用plugin
+#!desc=自用plugin解锁会员
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/accu.png
 
 [Script]
 
