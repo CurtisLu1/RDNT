@@ -286,21 +286,12 @@ http://play-live.ifeng.com/live/06OLEGEGM4G.m3u8
 http://streamipcf.akamaized.net/live/_definst_/live_720/chunklist_b1500.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EbcAsiaNews.png" group-title="港澳台", 东森亚洲新闻台
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBO.png" group-title="港澳台", HBO
-http://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视新闻.png" group-title="港澳台", 中视新闻
 http://seb.sason.top/sc/zsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://rb.gy/puhwty" group-title="港澳台", 澳门有线 CH1
 http://61.244.22.4/ch1/ch1.live/playelist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港澳台", 澳门有线 CH2
 http://61.244.22.4/ch2/ch2.live/playelist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.hualigs.cn/image/61555d61ab15d.jpg" group-title="英语新闻", NBC NEWS FHD
-https://nbcnews2.akamaized.net/hls/live/723426/NBCNewsPlaymaker24x7Linear99a3a827-ua/VIDEO_0_6596000.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mod.cht.com.tw/img/channel/channelpic/252.png" group-title="英语新闻", BBC Earth HD
-https://livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mod.cht.com.tw/img/channel/channelpic/253.png" group-title="英语新闻", Discovery Asia HD
-https://livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="宗教", 香港佛陀教育协会
 http://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
