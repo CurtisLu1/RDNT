@@ -36,7 +36,7 @@ http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)
 http-response https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
 
 # # 解锁财新 (解锁文章，无需登录,@ddgksf2013)
-http-request ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) requires-body=1,max-size=0,script-path= https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/caixin.js
+http-request ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/raw/master/Crack/caixin.js
 
 [MITM]
 hostname = lchttpapi.xczim.com, cupfox.app, note.youdao.com,h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, *.xima*.*, *.xmcdn.*, mobile.ximalaya.com, dayone.me, dayone.app, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, wx.mygolbs.com, api.ithome.com, m.ithome.com, mp.weixin.qq.com, gateway.caixin.com
