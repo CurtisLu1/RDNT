@@ -6,13 +6,14 @@
 
 [Script]
 
-# Choler 
+# 微信 去除公众号文章底部广告
 http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
 # IT之家 去广告
 http-response ^https:\/\/m\.ithome\.com\/api\/news\/newslistpageget requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js
 http-response ^https:\/\/api\.ithome\.com\/json\/(listpage|newslist)\/news requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js
 http-response ^https:\/\/api\.ithome\.com\/json\/slide\/index requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js
+http-response ^https:\/\/napi\.ithome\.com\/api\/(news|topmenu)\/(getfeeds|index) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js
 
 # 去除掌上公交微信小程序广告（2022-03-01）@ddgksf2013
 http-response https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/zhangshanggongjiao.js
@@ -36,7 +37,7 @@ http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)
 http-response https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
 
 # 解锁财新 (解锁文章，无需登录,@ddgksf2013)
-http-request ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/raw/master/Crack/caixin.js
+http-request ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caixin.js
 
 # 喜马拉雅首页滚动_Ad、Tab页滚动_Ad、我的页面Ad
 http-response ^https?:\/\/mobile\.ximalaya\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
