@@ -18,8 +18,17 @@ http-response ^https:\/\/napi\.ithome\.com\/api\/(news|topmenu)\/(getfeeds|index
 # 去除掌上公交微信小程序广告（2022-03-01）@ddgksf2013
 http-response https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/zhangshanggongjiao.js
 
+# 部分解锁Spotify(iOS15)Premium功能，建议重新登录,音质不能设置为超高
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+
 # 解锁西窗烛订阅
 http-response https://lchttpapi.xczim.com/* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
+
+# 解锁 Notability订阅
+http-response ^https?:\/\/notability\.com\/subscriptions requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/notability.js
+
+# 解锁 DayOne 订阅
+http-response https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
 
 # 茶杯狐[网页优化]@ddgksf2013 - 网站地址：https://cupfox.app/
 http-response ^https?:/\/cupfox\.app(\/?$|\/([?]|search).*$) requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/JS/cupbox.js
@@ -33,14 +42,14 @@ http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)
 # 喜马拉雅
 http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
 
-# 解锁 DayOne 订阅
-http-response https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
+# 喜马拉雅首页滚动_Ad、Tab页滚动_Ad、我的页面Ad
+http-response ^https?:\/\/mobile\.ximalaya\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
 
 # 解锁财新 (解锁文章，无需登录,@ddgksf2013)
 http-request ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caixin.js
 
-# 喜马拉雅首页滚动_Ad、Tab页滚动_Ad、我的页面Ad
-http-response ^https?:\/\/mobile\.ximalaya\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
+# 解锁 酷我音乐
+http-response ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kw.js
 
 # 小红书开屏广告@chouchoui
 http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js
@@ -50,6 +59,19 @@ http-response ^https?:/\/cupfox\.app(\/?$|\/([?]|search|list).*$) requires-body=
 
 # PornHub[网页优化]@ddgksf2013 - 网站地址：https://cn.pornhub.com
 http-response ^https?:/\/(cn|www)\.pornhub\.com(\/?$|\/([?]|view|video).*$) requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/JS/pornhub.js
+
+# 解锁 WPS本地会员,支持大陆版以及非大陆版(2022.07.10)
+http-response ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js,script-update-interval=0
+
+# WPS解锁稻壳会员
+http-response ^https?:\/\/account\.wps\.cn\/api\/v3\/mine\/vips requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPuserCrack.js
+http-response ^https?:\/\/.+\.(docer.)?wps.cn\/(user\/v1\/vip|android\/mb\/buy|download\/v1\/ios|partner\/invoke\/usable|(api|rank)\/v1(\/mobile\/mb)?\/detail) requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPowerCrack.js
+
+# 解锁 Xmind 思维导图订阅到2030年
+http-response https?:\/\/www\.xmind\.(cn|net|app)\/\_res\/devices requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Xmind/Script/Xmind.js
+
+# 七猫小说解锁终身V + 去除所有广告 + 无限下载权限 + 无限听书权限 + 无限阅读权限
+http-response ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiesuo/QiMaoXiaoShuo.js
 
 [MITM]
 hostname = -*.icloud-content.com, -*.fitness.apple.com, -*.mzstatic.com, -amp-api.music.apple.com, -amp-api.videos.apple.com, -bag.itunes.apple.com, -cdn*.smoot.apple.com, -cl4.apple.com, -cl5.apple.com, -configuration.apple.com, -fbs.smoot.apple.com, -gateway.icloud.com, -grpc.biliapi.net, -init.homekit.push.apple.com, -init.itunes.apple.com, -metrics.icloud.com, -metrics-config.icloud.com, -music.apple.com, -p102-content.icloud.com, -p102-quota.icloud.com, -p68-fmip.icloud.com, -pd.itunes.apple.com, -play.itunes.apple.com, -pr-pod2-smp-device.apple.com, -se2.itunes.apple.com, -smp-device-content.apple.com, -sp.itunes.apple.com, -swallow.apple.com, -updates.cdn-apple.com
