@@ -59,6 +59,9 @@ AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))),(NOT,((DOMAIN-SUFF
 # QQ 遗留代码
 OR,((DOMAIN,wspeed.qq.com),(IP-CIDR,183.61.49.155/32,no-resolve),(IP-CIDR,59.36.121.252/32,no-resolve))
 
+# 去除腾讯视频广告
+AND,((PROTOCOL,HTTPS), (DOMAIN,iacc.qq.com))
+
 # > Safari 防跳转
 # DOMAIN,app-site-association.cdn-apple.com
 
