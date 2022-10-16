@@ -73,5 +73,15 @@ http-response https?:\/\/www\.xmind\.(cn|net|app)\/\_res\/devices requires-body=
 # 七猫小说解锁终身V + 去除所有广告 + 无限下载权限 + 无限听书权限 + 无限阅读权限
 http-response ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiesuo/QiMaoXiaoShuo.js
 
+# Weibo_微博
+# 微博去广告以及去除各部分推广模块 - cherish
+http-response ^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|messageflow|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(unread_hot_timeline|extend|video_mixtimeline)|profile/(me|statuses)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item|search/(finder|container_timeline|container_discover)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+# 删除微博开屏广告 - cherish
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_launch.js
+# 自定义tab皮肤
+http-response ^https://api.weibo.cn/2/!/client/light_skin requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+# 非会员设置tab皮肤 - cherish
+http-response ^https://new.vip.weibo.cn/littleskin/preview requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+
 [MITM]
 hostname = -*.icloud-content.com, -*.fitness.apple.com, -*.mzstatic.com, -amp-api.music.apple.com, -amp-api.videos.apple.com, -bag.itunes.apple.com, -cdn*.smoot.apple.com, -cl4.apple.com, -cl5.apple.com, -configuration.apple.com, -fbs.smoot.apple.com, -gateway.icloud.com, -grpc.biliapi.net, -init.homekit.push.apple.com, -init.itunes.apple.com, -metrics.icloud.com, -metrics-config.icloud.com, -music.apple.com, -p102-content.icloud.com, -p102-quota.icloud.com, -p68-fmip.icloud.com, -pd.itunes.apple.com, -play.itunes.apple.com, -pr-pod2-smp-device.apple.com, -se2.itunes.apple.com, -smp-device-content.apple.com, -sp.itunes.apple.com, -swallow.apple.com, -updates.cdn-apple.com
