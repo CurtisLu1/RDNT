@@ -130,3 +130,50 @@ PROCESS-NAME,weiyun.exe
 
 # 微信直连
 AND,((OR,((DEST-PORT,443), (DEST-PORT,80), (DEST-PORT,8080))), (OR,((IP-CIDR,129.226.3.47/32,no-resolve), (IP-CIDR,101.32.118.25/16,no-resolve))), (PROTOCOL,TCP))
+
+# 以下引用自https://github.com/BlueGrave/Surge/blob/master/Module/WhiteList.sgmodule
+# General
+DOMAIN,app.adjust.com
+DOMAIN,bdtj.tagtic.cn
+# 淘宝推广
+DOMAIN-SUFFIX,tce.alicdn.com
+# Alibaba
+DOMAIN,log.mmstat.com
+DOMAIN,sycm.mmstat.com
+# 罗技官网
+DOMAIN-SUFFIX,accounts.logi.com
+DOMAIN-SUFFIX,ghub.logitech.io
+DOMAIN,gm.mmstat.com
+# 115 网盘
+DOMAIN,passportapi.115.com
+# 微博推广
+DOMAIN,tui.weibo.com
+# Weibo
+DOMAIN-SUFFIX,f.video.weibocdn.com
+# Getui
+DOMAIN-SUFFIX,dizhensubao.getui.com
+# Mozilla
+DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+# Origin
+DOMAIN,origin-a.akamaihd.net
+DOMAIN,xivanalysis.com
+DOMAIN,picanalysis.vivo.com.cn
+# Strava
+DOMAIN,analytics.strava.com
+# Umeng 友盟+
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+# Tencent
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+# UnionPay
+DOMAIN,analytics.95516.com
+# MIUI
+DOMAIN,tracking.miui.com
+# Paramount+
+DOMAIN,pubads.g.doubleclick.net
+# Krcom 酷燃视频
+DOMAIN-SUFFIX,fus.cdn.krcom.cn
+# 应对 edu.cn IPv6 网站
+DOMAIN-SUFFIX,edu.cn
