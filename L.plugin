@@ -35,8 +35,20 @@ http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)
 # 解锁 DayOne 订阅
 http-response https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
 
-# # 解锁财新 (解锁文章，无需登录,@ddgksf2013)
+# 解锁财新 (解锁文章，无需登录,@ddgksf2013)
 http-request ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/raw/master/Crack/caixin.js
+
+# 喜马拉雅首页滚动_Ad、Tab页滚动_Ad、我的页面Ad
+http-response ^https?:\/\/mobile\.ximalaya\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
+
+# 小红书开屏广告@chouchoui
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js
+
+# 茶杯狐[网页优化]@ddgksf2013 - 网站地址：https://cupfox.app/
+http-response ^https?:/\/cupfox\.app(\/?$|\/([?]|search|list).*$) requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/JS/cupbox.js
+
+# PornHub[网页优化]@ddgksf2013 - 网站地址：https://cn.pornhub.com
+http-response ^https?:/\/(cn|www)\.pornhub\.com(\/?$|\/([?]|view|video).*$) requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/JS/pornhub.js
 
 [MITM]
 hostname = lchttpapi.xczim.com, cupfox.app, note.youdao.com,h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, *.xima*.*, *.xmcdn.*, mobile.ximalaya.com, dayone.me, dayone.app, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, wx.mygolbs.com, api.ithome.com, m.ithome.com, mp.weixin.qq.com, gateway.caixin.com
