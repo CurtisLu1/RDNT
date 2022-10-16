@@ -73,6 +73,9 @@ http-response https?:\/\/www\.xmind\.(cn|net|app)\/\_res\/devices requires-body=
 # 七猫小说解锁终身V + 去除所有广告 + 无限下载权限 + 无限听书权限 + 无限阅读权限
 http-response ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiesuo/QiMaoXiaoShuo.js
 
+# 联通营业厅轮播广告 (By Wangsc1)
+http-response ^https?://m.client.10010.com/uniAdmsInterface/getHomePageAd requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/28413761/QX/main/JS/china_unicom.js
+
 # Weibo_微博
 # 微博去广告以及去除各部分推广模块 - cherish
 http-response ^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|messageflow|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(unread_hot_timeline|extend|video_mixtimeline)|profile/(me|statuses)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item|search/(finder|container_timeline|container_discover)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
