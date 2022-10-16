@@ -11,7 +11,6 @@ DOMAIN,adstats.tencentmusic.com
 DOMAIN,business.msstatic.com
 DOMAIN,gg.caixin.com
 DOMAIN,p37-acsegateway.icloud.com.cn
-DOMAIN,access.mypikpak.com
 
 IP-CIDR,203.107.1.1/24,no-resolve
 
@@ -367,3 +366,72 @@ URL-REGEX,^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search
 URL-REGEX,^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*ads
 # > Weico
 URL-REGEX,^https?:\/\/overseas.weico.cc\/portal.php\?a=get_coopen_ads
+
+//引用自 https://github.com/ExaAlice/Alice/blob/main/Rule/Adblock.list
+# 未知广告 来自#49反馈
+DOMAIN-SUFFIX,stats.chinaz.com
+#站长统计
+DOMAIN-SUFFIX,google-analytics.com
+# 有道词典
+DOMAIN-SUFFIX,gorgon.youdao.com
+DOMAIN-SUFFIX,impservice.youdao.com
+#以下为某些不可描述网站加载的乱七八糟广告
+DOMAIN-SUFFIX,.maizhenai.cn
+DOMAIN-SUFFIX,.paomifen.cn
+DOMAIN-SUFFIX,.songlaoban.cn
+DOMAIN-SUFFIX,.09mk.cn
+DOMAIN-SUFFIX,.hepengshan.cn
+DOMAIN-SUFFIX,.epsilon.com
+DOMAIN-SUFFIX,.storygize.net
+DOMAIN-SUFFIX,.connexity.net
+DOMAIN-SUFFIX,.liadm.com
+DOMAIN-SUFFIX,.agkn.com
+DOMAIN-SUFFIX,.exelator.com
+DOMAIN-SUFFIX,dualstack.adsame-1421766300.ap-southeast-1.elb.amazonaws.com
+DOMAIN-SUFFIX,.amaoshe.cn
+DOMAIN-SUFFIX,.yeshoutuan.cn
+DOMAIN-SUFFIX,.muxq8.cn
+DOMAIN-SUFFIX,.huanshawang.cn
+DOMAIN-SUFFIX,.v85968.cn
+#以下为广告联盟
+DOMAIN-SUFFIX,taboola.com
+DOMAIN-SUFFIX,trc.taboola.com
+#付呗收款码支付后跳转到的广告地址（支付宝内）
+DOMAIN-SUFFIX,tuisnake.com
+DOMAIN-SUFFIX,.duiba.com.cn
+DOMAIN-SUFFIX,.dui88.com
+#喜马拉雅跟踪和广告
+DOMAIN-SUFFIX,location.ximalaya.com
+DOMAIN-SUFFIX,adse.ximalaya.com
+DOMAIN-SUFFIX,xdcs-collector.ximalaya.com
+#广告联盟
+DOMAIN-SUFFIX,.inmobi.cn
+DOMAIN-SUFFIX,.criteo.com
+#169
+DOMAIN-SUFFIX,adx.hupu.com
+DOMAIN-SUFFIX,kikibt8.com
+DOMAIN-SUFFIX,kikibt8.xyz
+
+//引用自 https://github.com/ExaAlice/Alice/blob/main/Rule/REJECT.list
+#第一版主
+DOMAIN,679lkbf4.naisi-022.com
+DOMAIN-SUFFIX,naisi-022.com
+DOMAIN,d9cjtb89.naisi-040.com
+DOMAIN-SUFFIX,insect.htled.net
+DOMAIN,htled.net
+DOMAIN,v1sk.cncnails.net
+DOMAIN,cdn777.com
+DOMAIN-SUFFIX,cncnails.net
+DOMAIN-SUFFIX,doca182.com
+DOMAIN,www.doca182.com
+DOMAIN-SUFFIX,bytecdntp.com
+DOMAIN,j9.games
+#Pikpak网盘检测大陆ip
+DOMAIN,access.mypikpak.com
+#中国反诈官网
+IP-CIDR,39.102.194.95/32,no-resolve
+IP-CIDR,182.43.124.6/32,no-resolve
+IP-CIDR,101.35.177.86/32,no-resolve
+DOMAIN,96110.pages.dev
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,ssl.qhimg.com
