@@ -1,0 +1,10 @@
+#!name=测试plugin
+#!desc=测试plugin解锁会员
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/loon.png
+
+[Script]
+# 流利说·阅读+解锁VIP
+http-response ^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/llsyd.js
+
+[mitm] 
+hostname = vira.llsapp.com
