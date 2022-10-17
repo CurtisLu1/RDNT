@@ -4,4 +4,8 @@
 
 [Script]
 
+# ～ 阿里云盘（2022-10-16）@ddgksf2013
+http-response ^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/apps\/widgets$ requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/alidrive.js
+
 [mitm] 
+hostname = api.aliyundrive.com
