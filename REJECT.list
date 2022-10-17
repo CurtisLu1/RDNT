@@ -186,7 +186,6 @@ URL-REGEX,^https?:\/\/capi.mwee.cn\/app-api\/V12\/app\/getstartad
 # > 票根
 URL-REGEX,^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/
 
-
 # > 铁路12306开屏广告(倒计时仍然存在）@ddgksf2013
 URL-REGEX,https://ad.12306.cn/*
 
@@ -389,6 +388,14 @@ URL-REGEX,^https://api.bilibili.com/pgc/season/player/cards
 URL-REGEX,^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr
 # BiliBili_哔哩哔哩_漫画去广告@ddgksf2013
 URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash)
+# BiliBili_哔哩哔哩_其他
+URL-REGEX,https?:\/\/app\.biliapi\.net\/x\/v2\/splash\/list\?actionKey=appkey&ad_extra
+
+# 京东比价Fix
+URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start
+
+# IT之家 去广告
+URL-REGEX,^https:\/\/api\.zuihuimai\.com
 
 //引用自 https://github.com/ExaAlice/Alice/blob/main/Rule/Adblock.list
 # 未知广告 来自#49反馈
