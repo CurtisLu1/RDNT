@@ -22,10 +22,10 @@ http-response https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do requires-bod
 http-response ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidumap.js
 
 # 百度搜索防跳转AppStore
-^https:\/\/boxer\.baidu\.com\/scheme\?scheme requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
+http-response ^https:\/\/boxer\.baidu\.com\/scheme\?scheme requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
 
 # 百度文库 解锁VIP文档阅读权限（2022-10-17）@ddgksf2013
-^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo requires-body=1,max-size=0,script-path= https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/baidulibrary.js
+http-response ^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo requires-body=1,max-size=0,script-path= https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/baidulibrary.js
 
 # BiliBili_哔哩哔哩_@ddgksf2013补充
 # BiliBili_哔哩哔哩_启动时开启直连模式[自行启用]@ddgksf2013
@@ -54,10 +54,10 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab requires-bo
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 
 # 去除腾讯视频广告
-http-request ^(https:\/\/i\.video|http:\/\/iacc)\.qq\.com\/$ requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Hpxwd/Surge/main/Js/txvideo.is
+http-response http-request ^(https:\/\/i\.video|http:\/\/iacc)\.qq\.com\/$ requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Hpxwd/Surge/main/Js/txvideo.is
 
 # 喜马拉雅
-http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
+http-response http-response ^https?:\/\/.*\.xima.*\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
 
 # 喜马拉雅首页滚动_Ad、Tab页滚动_Ad、我的页面Ad
 http-response ^https?:\/\/mobile\.ximalaya\.com\/(discovery-feed|category|mobile-user)\/v\d\/(mix|category|homePage) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
