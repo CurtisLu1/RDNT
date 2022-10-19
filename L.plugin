@@ -22,33 +22,36 @@ http-response https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do requires-bod
 http-response ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidumap.js
 
 # 百度搜索防跳转AppStore
-百度防跳转 = type=http-response,pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
+^https:\/\/boxer\.baidu\.com\/scheme\?scheme requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
+
+# 百度文库 解锁VIP文档阅读权限（2022-10-17）@ddgksf2013
+^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo requires-body=1,max-size=0,script-path= https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/baidulibrary.js
 
 # BiliBili_哔哩哔哩_@ddgksf2013补充
 # BiliBili_哔哩哔哩_启动时开启直连模式[自行启用]@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/resource\/domain  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_startup_direct.js
+http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/domain requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_startup_direct.js
 # BiliBili_哔哩哔哩_繁体CC字幕转中文简体[自行启用]@ddgksf2013
-^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_cc.js
+http-response ^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_cc.js
 # BiliBili_哔哩哔哩_观影页面去广告@ddgksf2013
-^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/cinema\/tab\?  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+http-response ^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/cinema\/tab\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 # BiliBili_哔哩哔哩_应用开屏广告预加载@yjqiang
-^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 # BiliBili_哔哩哔哩_去除统一设置的皮肤@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 # BiliBili_哔哩哔哩_1080P高码率+4K画质(番剧和影视除外)@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 # BiliBili_哔哩哔哩_热搜发现@ddgksf2013
-^https://app.bilibili.com/x/v2/search/square  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+http-response ^https://app.bilibili.com/x/v2/search/square requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 # BiliBili_哔哩哔哩_推荐去广告@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 # BiliBili_哔哩哔哩_追番去广告@ddgksf2013
-^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+http-response ^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 # BiliBili_哔哩哔哩_直播去广告@bm7
-^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+http-response ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 # BiliBili_哔哩哔哩_标签页处理@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 # BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 
 # 去除腾讯视频广告
 http-request ^(https:\/\/i\.video|http:\/\/iacc)\.qq\.com\/$ requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Hpxwd/Surge/main/Js/txvideo.is
@@ -85,7 +88,7 @@ http-response ^https://api.weibo.cn/2/!/client/light_skin requires-body=1,max-si
 http-response ^https://new.vip.weibo.cn/littleskin/preview requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
 
 # Stay去除代码仓库广告（2022-10-17）@ddgksf2013
-Stay去除代码仓库广告 = type=http-response,pattern=^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/stay.js
+http-response ^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$ requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/stay.js
 
 # 解锁西窗烛订阅
 http-response https://lchttpapi.xczim.com/* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
@@ -103,8 +106,8 @@ http-response https://note.youdao.com/yws/(mapi/payment|api/self) requires-body=
 http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiaoben/MeiTuXiuXiu.js
 
 # 解锁 酷我音乐(会员共享)[vip至2023-05-07]
-http-response ^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ne|\/a\.p|v\d\/api\/(user\/in|pay\/vi)|\w{3}\/v\d\/user\/vi|\w{3}\/spi\/ms|\w{3}\/v\d\/the|\w{3}\/enc\/use),requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/kwyy.js
-=http-request ^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ui),requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/kwyy.js
+http-response ^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ne|\/a\.p|v\d\/api\/(user\/in|pay\/vi)|\w{3}\/v\d\/user\/vi|\w{3}\/spi\/ms|\w{3}\/v\d\/the|\w{3}\/enc\/use) requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/kwyy.js
+http-request ^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ui) requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/kwyy.js
 
 # 解锁 WPS本地会员,支持大陆版以及非大陆版(2022.07.10)
 http-response ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js,script-update-interval=0
@@ -120,7 +123,7 @@ http-response https?:\/\/www\.xmind\.(cn|net|app)\/\_res\/devices requires-body=
 http-response ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiesuo/QiMaoXiaoShuo.js
 
 # 解锁财新 (解锁文章，无需登录,@ddgksf2013)
-^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caixin.js
+http-response ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caixin.js
 
 [MITM]
 hostname = -*.icloud-content.com, -*.fitness.apple.com, -*.mzstatic.com, -amp-api.music.apple.com, -amp-api.videos.apple.com, -bag.itunes.apple.com, -cdn*.smoot.apple.com, -cl4.apple.com, -cl5.apple.com, -configuration.apple.com, -fbs.smoot.apple.com, -gateway.icloud.com, -grpc.biliapi.net, -init.homekit.push.apple.com, -init.itunes.apple.com, -metrics.icloud.com, -metrics-config.icloud.com, -music.apple.com, -p102-content.icloud.com, -p102-quota.icloud.com, -p68-fmip.icloud.com, -pd.itunes.apple.com, -play.itunes.apple.com, -pr-pod2-smp-device.apple.com, -se2.itunes.apple.com, -smp-device-content.apple.com, -sp.itunes.apple.com, -swallow.apple.com, -updates.cdn-apple.com,  -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net
