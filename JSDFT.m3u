@@ -135,12 +135,6 @@ http://livehyw5.chinamcache.com/hyw/zb01.m3u8?txSecret=58347f72aece2c25c685b8dc4
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="卫视", 浙江卫视
 http://39.135.138.59:18890/PLTV/88888910/224/3221225703/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/CHCjiating.png" group-title="杂项",CHC家庭影院
-http://111.20.33.93/TVOD/88888893/224/3221226462/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/CHCgaoqing.png" group-title="杂项",CHC高清电影
-http://111.20.33.93/PLTV/88888893/224/3221226463/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/CHCdongzuo.png" group-title="杂项",CHC动作电影
-http://111.20.33.93/TVOD/88888893/224/3221226465/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/qsdw.png" group-title="杂项",求索动物
 http://111.11.123.30:6610/000000001000/6000000002000010046/1.m3u8?Contentid=6000000002000010046&livemode=1&stbId=3&channel-id=wasusyt
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://n.ysyz.top:99/buyaolian/qskx.png" group-title="杂项",求索科学
