@@ -1,0 +1,6 @@
+#!name=No Default Route
+#!desc=打开"家庭App"时设置Surge兼容性为“不作为默认路由”&“No Default Route”
+#!system=ios
+
+[General]
+compatibility-mode = 5
