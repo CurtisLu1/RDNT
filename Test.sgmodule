@@ -1,0 +1,21 @@
+#!name=各种功能测试
+#!desc=各种功能测试
+
+[Rule]
+
+[Panel]
+
+[Header Rewrite]
+
+[Script]
+
+# Flightradar24解锁订阅
+Flightradar24SVIP = type=http-response,pattern=^https://mobile.flightradar24.com/mobile/(user-session|subscribe),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/flightradar24.js,script-update-interval=0
+
+# PDF—Expert解锁订阅
+# PDF—Expert = type=http-request,pattern=^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PDFExpert.js,script-update-interval=0
+
+[Map Local]
+
+[MITM]
+hostname = %APPEND% *.apple-mapkit.com
