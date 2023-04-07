@@ -1,0 +1,6 @@
+#!name=Tun Only
+#!desc=关闭"家庭App"时设置Surge兼容性为“Tun Only”
+#!system=ios
+
+[General]
+compatibility-mode = 3
