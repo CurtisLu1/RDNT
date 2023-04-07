@@ -1,0 +1,6 @@
+#!name=更改VIF引擎为旧版
+#!desc=解决新版VIF引擎与PD虚拟机软件的冲突
+#!system=mac
+
+[General]
+legacy-vif = true
