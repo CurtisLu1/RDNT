@@ -6,10 +6,10 @@
 [Panel]
 
 # GPT
-GPT = script-name=stream_all, title="GPT", content="请刷新面板", update-interval=0
+GPT = script-name=GPT, title="GPT", content="请刷新面板", update-interval=0
 
 # cf speedtest
-NetSpeed = script-name=stream_all, title="NetSpeed", content="请刷新面板", update-interval=0
+NetSpeed = script-name=NetSpeed, title="NetSpeed", content="请刷新面板", update-interval=0
 
 [Header Rewrite]
 
