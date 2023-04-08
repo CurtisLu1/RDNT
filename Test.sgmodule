@@ -5,9 +5,20 @@
 
 [Panel]
 
+# GPT
+GPT = script-name=stream_all, title="GPT", content="请刷新面板", update-interval=0
+
+# cf speedtest
+NetSpeed = script-name=stream_all, title="NetSpeed", content="请刷新面板", update-interval=0
+
 [Header Rewrite]
 
 [Script]
+# GPT
+GPT = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/CMJ781/RDNT/main/JS/GPT.js,script-update-interval=0
+
+# cf speedtest
+NetSpeed = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/CMJ781/RDNT/main/JS/NetSpeed.js,script-update-interval=0
 
 # Flightradar24解锁订阅
 Flightradar24SVIP = type=http-response,pattern=^https://mobile.flightradar24.com/mobile/(user-session|subscribe),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/flightradar24.js,script-update-interval=0
