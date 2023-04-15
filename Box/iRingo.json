@@ -10,7 +10,7 @@
 			"id": "iRingo.Location",
 			"name": "定位服务",
 			"descs_html": [
-				"请参照<a href=\"https://github.com/VirgilClyne/iRingo/wiki/📍-定位服务\">📍 定位服务</a>的使用说明进行配置",
+				"请参照<a href=\"https://github.com/VirgilClyne/iRingo/wiki/定位服务\">定位服务</a>的使用说明进行配置",
 				"影响功能范围包括但不限于“地图”、“Apple News”、“指南针”等"
 			],
 			"keys": [
