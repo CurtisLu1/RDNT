@@ -8,10 +8,10 @@
   "apps": [
     {
       "id": "Cloudflare.1dot1dot1dot1",
-      "name": "☁️ Cloudflare 1.1.1.1",
+      "name": "Cloudflare 1.1.1.1",
       "descs_html": [
         "不同运行方式所要填写的内容也不相同",
-        "使用说明请见<a href=\"https://github.com/VirgilClyne/Cloudflare/wiki/☁-1.1.1.1-by-Cloudflare-with-WARP#使用说明\">使用说明</a>",
+        "使用说明请见<a href=\"https://github.com/VirgilClyne/Cloudflare/wiki/1.1.1.1-by-Cloudflare-with-WARP#使用说明\">使用说明</a>",
         "填写完成后请先点击此页面底端右下角的\"保存\"后，再到App中执行后续操作。"
       ],
       "keys": [
@@ -68,160 +68,6 @@
       "icons": [
         "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/d3/c5/bb/d3c5bbed-08d4-481c-8585-f7d2e45abd5f/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png",
         "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/d3/c5/bb/d3c5bbed-08d4-481c-8585-f7d2e45abd5f/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png"
-      ]
-    },
-    {
-      "id": "Cloudflare.WARP",
-      "name": "☁️ Cloudflare WARP",
-      "descs_html": [
-        "⚠️注意：此脚本已停止供应",
-        "请移步<a href=\"https://github.com/VirgilClyne/Cloudflare/wiki/☁-1.1.1.1-by-Cloudflare-with-WARP\">☁ 1.1.1.1 by Cloudflare with WARP</a>查看新脚本",
-        "不同运行方式所要填写的内容也不相同",
-        "使用说明请见<a href=\"https://github.com/VirgilClyne/Cloudflare/wiki/☁-Cloudflare-WARP\">使用说明</a>",
-        "填写完成后请先点击此页面底端右下角的\"保存\"后，再点击此页面右上角的圆箭头按钮\"运行\"。"
-      ],
-      "keys": [
-        "@Cloudflare.WARP.Settings",
-        "@Cloudflare.WARP.Caches"
-      ],
-      "settings": [
-        {
-					"id": "@Cloudflare.WARP.Settings.Switch",
-					"name": "总功能开关",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用此模块"
-				},
-        {
-          "id": "@Cloudflare.WARP.Settings.setupMode",
-          "name": "WARP: 运行方式/setupMode",
-          "val": "RegisterNewAccountwithPublicKey",
-          "type": "radios",
-          "items": [
-            {
-              "key": "RegisterNewAccount",
-              "label": "注册新账户/Register New Account"
-            },
-            {
-              "key": "RegisterNewAccountwithPublicKey",
-              "label": "注册新账户(用自定义密钥对)并生成WireGuard配置文件/Register New Account(with custom Keypair)and output WireGuard Config"
-            },
-            {
-              "key": "RegisterNewDevice",
-              "label": "注册新设备(注册ID)/Register New Device(Registration Id/id)"
-            },
-            {
-              "key": "RebindingLicense",
-              "label": "重绑定许可证(许可证 & 注册ID)(仅适用于个人版)/Rebinding License(license & Registration Id/id)(Only for Personal)"
-            },
-            {
-              "key": "ChangeKeypair",
-              "label": "更换公钥(用自定义密钥对)(公钥 & 注册ID & 令牌)/Change Public Key(with custom Keypair)(Public Key & Registration Id/id & Token)"
-            },
-            {
-              "key": "AccountDetail",
-              "label": "查询账户信息(创建日期/剩余流量/邀请人数等)/Check Account Detail"
-            },
-            {
-              "key": "DeviceDetail",
-              "label": "查询设备配置(设备名称/设备类型/创建日期/活动状态等)/Check Device Detail"
-            },
-            {
-              "key": "AutoAffWARP+",
-              "label": "自动邀请新用户刷Warp+流量/Auto Aff New User for WARP+"
-            }
-          ],
-          "desc": "个人版的WARP的验证方式默认只有Token，Team版的不知道"
-        },
-        {
-          "id": "@WireGuard.VPN.Settings.PrivateKey",
-          "name": "WireGuard: 私钥/Private Key",
-          "val": "",
-          "type": "text",
-          "placeholder": "",
-          "desc": "在Wireguard的iOS客户端里新建隧道，生成一个密钥对，私钥贴在这里，公钥贴下面"
-        },
-        {
-          "id": "@WireGuard.VPN.Settings.PublicKey",
-          "name": "WireGuard: 公钥/Public Key",
-          "val": "",
-          "type": "text",
-          "placeholder": "",
-          "desc": "在Wireguard的iOS客户端里新建隧道，生成一个密钥对，公钥贴在这里，私钥贴上面"
-        },
-        {
-          "id": "@Cloudflare.WARP.Settings.Verify.License",
-          "name": "WARP: 许可证(账户)/License(Account)",
-          "val": "",
-          "type": "text",
-          "placeholder": "1A2B3C4D-5E6F7G8H-9I0J1K2L",
-          "desc": "相当于匿名的WARP账号，妥善保管，使用与获取的流量、设备均算在此许可证密钥的使用量当中"
-        },
-        {
-          "id": "@Cloudflare.WARP.Settings.Verify.RegistrationId",
-          "name": "WARP: 注册ID(设备ID/客户端ID/配置文件ID)/Registration Id(Device ID/Client ID/Config ID)",
-          "val": "",
-          "type": "text",
-          "placeholder": "123e4567-e89b-12d3-a456-426614174000",
-          "desc": "设备ID, UUID, 请妥善保管，注册新设备时可以自己通过UUID生成器生成，每个设备和对应配置文件的唯一身份识别代码，不填写的话视为新设备注册，会自动生成，一个设备生成一个配置文件，想找回配置文件可以通过设备ID找回"
-        },
-        {
-          "id": "@Cloudflare.WARP.Settings.Verify.Mode",
-          "name": "WARP: 验证方式/Verify Mode",
-          "val": "Token",
-          "type": "radios",
-          "items": [
-            {
-              "key": "Token",
-              "label": "令牌/Token"
-            }
-          ],
-          "desc": "个人版的WARP的验证方式默认只有Token，Team版的不知道"
-        },
-        {
-          "id": "@Cloudflare.WARP.Settings.Verify.Content",
-          "name": "WARP: 验证内容/Verify Content",
-          "val": "",
-          "type": "text",
-          "placeholder": "8M7wS6hCpXVc-DoRnPPY_UCWPgy8aea4Wy6kCe5T",
-          "desc": "‘令牌’验证方式的值写一行即可，不填写的话视为新设备注册，会自动生成"
-        },
-        {
-          "id": "@Cloudflare.WARP.Settings.deviceType",
-          "name": "WARP: 客户端用户代理类型/Client Device Type",
-          "val": "iOS",
-          "type": "radios",
-          "items": [
-            {
-              "key": "Windows",
-              "label": "Windows"
-            },
-            {
-              "key": "Linux",
-              "label": "Linux"
-            },
-            {
-              "key": "Android",
-              "label": "Android"
-            },
-            {
-              "key": "iOS",
-              "label": "iOS"
-            },
-            {
-              "key": "macOS",
-              "label": "macOS"
-            }
-          ],
-          "desc": "要伪装的客户端类型，默认iOS客户端"
-        }
-      ],
-      "author": "@VirgilClyne",
-      "repo": "https://github.com/VirgilClyne/Cloudflare/blob/main/js/Cloudflare.WARP.js",
-      "script": "https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/Cloudflare.WARP.js",
-      "icons": [
-        "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Cloudflare.png",
-        "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Cloudflare.png"
       ]
     }
   ]
